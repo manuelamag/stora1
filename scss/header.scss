@@ -1,12 +1,28 @@
-.header {
-max-width: 100%;
+head {
+/*max-width: 100%;
 flex: initial;
 padding: 10px;
-margin-bottom: 15px;
+margin-bottom: 15px;*/
 
 width: 100%;
-font-family: Merriweather, georgia, serif;
+font-family: Roboto Slab;
 font-size: 1.5rem;
 
-word-break: break-word;
+display: flex;
+flex-direction: column;
+
+margin-bottom: 2em;
+padding: 2em;
+
+width: 100%;
+min-height: 500px;
+
+background: transparent url(bg-subpage.jpg) no-repeat fixed 50% 50%;
+background-size: cover;
 }
+
+/*header {
+
+
+
+}*/

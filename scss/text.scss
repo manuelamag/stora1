@@ -1,4 +1,10 @@
 .text {
-  &__p { 
+  &__p {
+    font-family: Open Sans;
   }
+}
+
+blockquote {
+  margin: 1em 0 1em 2em;
+  line-height: 1.5;
 }
