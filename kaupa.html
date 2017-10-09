@@ -3,10 +3,143 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Verkefni 6 – síða</title>
-  <link href="<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Roboto+Slab" rel="stylesheet">" rel="stylesheet">
+  <title>Kaupa</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Roboto+Slab" rel="stylesheet">
   <link rel="stylesheet" href="styleguide.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="grid.css">
 </head>
-</head>
+<body>
+<header class ="header">
+
+  <text>Fooþjónustan</text>
+  <span>
+    <a href="um.html" class="text">Um</a>
+  </span>
+  <button class="button button--1">Kaupa</button>
+
+
+</header>
+<hero> Cover mynd hér </hero><!-- mynd ekki í header -->
+<main>
+    <div class="grid">
+  <legend>Persónuupplýsingar</legend>
+  <div class "col col-6">
+  <div>
+    <label for="name">Nafn:</label>
+  </div>
+  <div class "col col-6">
+    <input type="text" name="name" id="name" required>
+  </div>
+  <div>
+    <label for="Kennitala">Kennitala:</label>
+  </div>
+  <div class "col col-6">
+    <input type="text" name="Kennitala" id="Kennitala" value="123456-7890" /* autocomplete="off" tabindex="1"*/ required>
+  </div>
+  <div>
+    <p>Kyn</p>
+    <label>
+      <div>
+        <input name="Kyn" type="radio" value="kona"> Kona
+      </div>
+    </label>
+    <label>
+      <div>
+        <input name="Kyn" type="radio" value="karl"> Karl
+      </div>
+    </label>
+    <label>
+      <div>
+        <input name="Kyn" type="radio" value="annað"> Annað
+      </div>
+    </label>
+  </div>
+  <div>
+    <label for="Sími">Sími:</label>
+  </div>
+  <div class "col col-6">
+    <input type="text" name="Sími" id="Sími" value="+354 812 3456"required>
+  </div>
+<div>
+  <label for="Heimilisfang">Heimilisfang:</label>
+</div>
+<div class "col col-6">
+  <input type="text" name="Heimilisfang" id="Heimilisfang" required>
+</div>
+<div>
+  <label>
+    <input type="checkbox" name="Skrá mig á póstlista" checked> Skrá mig á póstlista
+  </label>
+</div>
+</grid>
+
+</div>
+
+
+<legend>Greiðsluupplýsingar</legend>
+<div>
+  <label for="service">Greiða með:</label>
+</div>
+  <div class "col col-12">
+  <select name="service" id="service">
+    <option>Kredidkorti</option>
+    <option>Millifærslu</option>
+    <option>Reiðufé</option>
+  </select>
+</div>
+<div>
+  <label for="Nafn á korti">Nafn á korti:</label>
+</div>
+<div class "col col-6">
+  <input type="text" name="Nafn á korti" id="Nafn á korti" required>
+</div>
+
+  <div>
+    <label for="Kortanúmer">Kortanúmer:</label>
+  </div>
+  <div class "col col-6">
+    <input type="text" name="kortanúmer" id="kortnúmer" value="5999-9999-9999-9999" required>
+  </div>
+<div>
+  <div>
+    <label for="service">Gildistími:</label>
+  </div>
+  <div>
+    <select name="service" id="service"> Mán
+      <option>01</option>
+      <option>02</option>
+      <option>03</option>
+      <option>04</option>
+      <option>05</option>
+      <option>06</option>
+      <option>07</option>
+      <option>08</option>
+      <option>09</option>
+      <option>10</option>
+      <option>11</option>
+      <option>12</option>
+    </select>
+    <select name="service" id="service"> Ár
+      <option>2017</option>
+      <option>2018</option>
+      <option>2019</option>
+      <option>2020</option>
+    </select>
+  </div>
+
+<div class="sg-example">
+<button class="button button--3">Panta</button>
+</div>
+
+</body>
+</main>
+<footer>
+  <p>Fooþjónustan</p>
+  <p>123-4567</p>
+  <p>Opið 12-13 alla daga</p>
+  <p>Bargata 1</p>
+  <p>900 Foobar</p>
+  <p>© Fooþjónustan 2017</p>
+</footer>
+</html>

@@ -1,0 +1,22 @@
+.nav {
+max-width: 100%;
+
+padding: 10px;
+margin-bottom: 15px;
+
+width: 100%;
+font-family: 'open sans';
+font-size: 1 rem;
+
+background-color: #000000;
+
+& h1 {
+color: #ffffff;
+
+}
+
+& a {
+  color: #ffffff;
+
+}
+}
