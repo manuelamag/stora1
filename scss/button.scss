@@ -15,8 +15,8 @@
   color: #eee;
   background-color: #666;
 
-  font-family: Lato, helvetica, arial, sans-serif;
-  font-size: 1rem;
+  font-family: 'open sans';
+  font-size: 1.5 rem;
 
   text-decoration: none;
   text-align: center;
@@ -33,20 +33,4 @@
 
   }
 
-  &--inverted {
-    color: #666;
-    background-color: #eee;
-  }
-
-  &--inverted:hover {
-    color: #333;
-    background-color: #ccc;
-  }
-
-  &--disabled,
-  &--disabled:hover {
-    border-color: #eee;
-    color: #999;
-    background-color: #eee;
-  }
 }
