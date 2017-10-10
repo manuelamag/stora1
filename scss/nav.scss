@@ -3,11 +3,12 @@
 
 background-color: #000000;
 
-padding: 10px;
+padding: 5px;
 top: 0;
 left: 0;
+right: 0;
 
-font-family: 'open sans';
+font-family:'open sans';
 font-size: 1 rem;
 
 height: 40px;
@@ -15,18 +16,18 @@ height: 40px;
 position: fixed;
 display: inline;
 
-& h1 {
+& .nav__title {
 color: #ffffff;
 display: inline;
 padding: 8px;
-
 }
 
-& button {
+& .button {
   display: inline;
   padding: 8px;
-
-
+}
+& .nav__list{
+  float: right;
 }
 
 & a {
