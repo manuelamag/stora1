@@ -197,27 +197,30 @@ blockquote {
     object-fit: cover; } }
 
 footer {
-  display: flex;
   padding: 5em;
   background-color: rgba(0, 0, 0, 0.75);
-  color: #ffffff; }
+  color: #ffffff;
+  list-style: none;
+  list-style-type: none; }
 
-footer p {
+.block__content {
   margin: auto;
+  columns: 2;
   font-size: 1em;
-  flex-direction: column; }
-
-.col__1 {
   flex-direction: column;
-  columns: 2 14em;
-  column-gap: 2em;
-  column-rule: inset 1px #999; }
+  vertical-align: baseline;
+  text-align: center;
+  list-style: none;
+  list-style-type: none; }
 
-.col__2 {
-  flex-direction: column;
-  columns: 2 14em;
-  column-gap: 2em;
-  column-rule: inset 1px #999; }
+.block--block-2 {
+  margin-bottom: 20px; }
+
+.panel {
+  margin: auto;
+  border-top: groove #ffffff;
+  width: 100%;
+  text-align: center; }
 
 .nav {
   width: 100%;
