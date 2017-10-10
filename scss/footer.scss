@@ -1,7 +1,7 @@
 footer {
   display: flex;
   padding: 5em;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.75);
   color: #ffffff;
 }
 
@@ -9,4 +9,18 @@ footer p {
   margin: auto;
   font-size: 1em;
   flex-direction: column;
+}
+
+.col__1{
+  flex-direction: column;
+  columns: 2 14em;
+  column-gap: 2em;
+  column-rule: inset 1px #999;
+}
+
+.col__2{
+  flex-direction: column;
+  columns: 2 14em;
+  column-gap: 2em;
+  column-rule: inset 1px #999;
 }

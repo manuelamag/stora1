@@ -65,15 +65,6 @@ main {
       width: 25%; } }
 
 .head {
-  /*max-width: 100%;
-flex: initial;
-=======
-.header {
-max-width: 100%;
-
->>>>>>> 3f62402b0a343e5c4b49500eeaceae320c27237c
-padding: 10px;
-margin-bottom: 15px;*/
   width: 100%;
   font-family: Roboto Slab;
   font-size: 1.5rem;
@@ -208,13 +199,25 @@ blockquote {
 footer {
   display: flex;
   padding: 5em;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.75);
   color: #ffffff; }
 
 footer p {
   margin: auto;
   font-size: 1em;
   flex-direction: column; }
+
+.col__1 {
+  flex-direction: column;
+  columns: 2 14em;
+  column-gap: 2em;
+  column-rule: inset 1px #999; }
+
+.col__2 {
+  flex-direction: column;
+  columns: 2 14em;
+  column-gap: 2em;
+  column-rule: inset 1px #999; }
 
 .nav {
   width: 100%;
