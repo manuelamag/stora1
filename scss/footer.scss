@@ -1,10 +1,12 @@
 footer {
   display: flex;
   padding: 5em;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 footer p {
   margin: auto;
-  font-size: 2em;
+  font-size: 1em;
   flex-direction: column;
 }
