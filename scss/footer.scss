@@ -1,14 +1,17 @@
 footer {
-  padding: 5em;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
   list-style: none;
   list-style-type: none;
+  font-size: 0.8em;
+  max-width: 100%;
 }
 
+ li{
+   margin-top: 5px;
+ }
 
 .block__content {
-  margin: auto;
   columns: 2;
   font-size: 1em;
   flex-direction: column;
@@ -16,16 +19,22 @@ footer {
   text-align: center;
   list-style: none;
   list-style-type: none;
-
+  margin: auto;
+  max-width: 50%;
 }
 
-.block--block-2{
-  margin-bottom: 20px;
-}
 
 .panel{
   margin: auto;
   border-top: groove #ffffff;
-  width: 100%;
+  width: 95%;
   text-align: center;
+}
+
+p {
+      margin: auto;
+      width: 50%;
+      padding: 10px;
+      display: block;
+
 }
