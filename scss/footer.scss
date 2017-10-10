@@ -1,12 +1,31 @@
 footer {
-  display: flex;
   padding: 5em;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.75);
   color: #ffffff;
+  list-style: none;
+  list-style-type: none;
 }
 
-footer p {
+
+.block__content {
   margin: auto;
+  columns: 2;
   font-size: 1em;
   flex-direction: column;
+  vertical-align: baseline;
+  text-align: center;
+  list-style: none;
+  list-style-type: none;
+
+}
+
+.block--block-2{
+  margin-bottom: 20px;
+}
+
+.panel{
+  margin: auto;
+  border-top: groove #ffffff;
+  width: 100%;
+  text-align: center;
 }
