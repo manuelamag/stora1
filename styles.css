@@ -164,10 +164,11 @@ blockquote {
 
 .cardlist {
   font-family: 'open sans';
-  width: 80%;
+  width: 90%;
   flex-direction: row;
-  flex-flow: wrap;
-  align-items: center;
+  flex-wrap: nowrap;
+  display: flex;
+  margin: auto;
   /*&.row{
   padding: 15px;
   flex-direction: row;
@@ -198,8 +199,11 @@ blockquote {
   object-fit: cover;
 }*/ }
   .cardlist__col {
+    flex-flow: wrap;
     flex-direction: column;
-    display: inline-block; }
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around; }
     .cardlist__col .circular--square {
       border-radius: 200px; }
   .cardlist .text {
