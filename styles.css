@@ -170,6 +170,8 @@ blockquote {
     margin-top: 50px; }
   .card .img {
     float: right; }
+  .card .circular--square {
+    border-radius: 50px; }
 
 .cardlist.row {
   padding: 15px;
