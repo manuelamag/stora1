@@ -1,10 +1,40 @@
 footer {
-  display: flex;
-  padding: 5em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  list-style: none;
+  list-style-type: none;
+  font-size: 0.8em;
+  max-width: 100%;
 }
 
-footer p {
-  margin: auto;
-  font-size: 2em;
+ li{
+   margin-top: 5px;
+ }
+
+.block__content {
+  columns: 2;
+  font-size: 1em;
   flex-direction: column;
+  vertical-align: baseline;
+  text-align: center;
+  list-style: none;
+  list-style-type: none;
+  margin: auto;
+  max-width: 50%;
+}
+
+
+.panel{
+  margin: auto;
+  border-top: groove #ffffff;
+  width: 95%;
+  text-align: center;
+}
+
+p {
+      margin: auto;
+      width: 50%;
+      padding: 10px;
+      display: block;
+
 }

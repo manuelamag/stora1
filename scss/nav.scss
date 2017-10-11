@@ -1,22 +1,40 @@
 .nav {
-max-width: 100%;
-
-padding: 10px;
-margin-bottom: 15px;
-
-width: 100%;
-font-family: 'open sans';
-font-size: 1 rem;
+  width: 100%;
 
 background-color: #000000;
 
-& h1 {
-color: #ffffff;
+padding: 5px;
+top: 0;
+left: 0;
+right: 0;
 
+font-family:'open sans';
+font-size: 1 rem;
+
+height: 40px;
+
+position: fixed;
+display: inline;
+
+& .nav__title {
+color: #ffffff;
+display: inline;
+padding: 8px;
+}
+
+& .button {
+  display: inline;
+  padding: 8px;
+}
+& .nav__list{
+  float: right;
 }
 
 & a {
   color: #ffffff;
+  text-decoration: none;
+  display: inline;
+  padding: 8px;
 
 }
 }

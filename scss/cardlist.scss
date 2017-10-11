@@ -1,6 +1,47 @@
 .cardlist {
 
-&.row{
+
+  font-family: 'open sans';
+  width: 90%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  display: flex;
+  margin: auto;
+
+  &__col{
+  flex-flow: wrap;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  
+  & .circular--square{
+
+    border-radius:200px;
+  }
+
+}
+
+
+& .text{
+  text-align: center;
+  font-weight: bold;
+& p{
+
+  text-align: center;
+  }
+
+}
+
+& h4{
+font-family: 'open sans';
+  align-items: center;
+}
+
+
+
+
+/*&.row{
   padding: 15px;
   flex-direction: row;
   flex-flow: wrap;
@@ -28,5 +69,5 @@
   height: 100%;
   min-width: 400px;
   object-fit: cover;
-}
+}*/
 }
