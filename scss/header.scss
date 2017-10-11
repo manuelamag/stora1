@@ -1,5 +1,5 @@
 
-head {
+header {
   display: flex;
  flex-direction: column;
 
@@ -11,7 +11,10 @@ head {
 
  background: transparent url("gogn/bg-subpage.jpg") no-repeat 50% 50%;
  background-size: cover;
-
+ max-width: 1200px;
+ margin: 0 auto;
+ width: 100%;
+ height: 80%;
 }
 
 .heading__one {
@@ -20,7 +23,8 @@ head {
      height: 100%;
      margin: 0;
      padding: 100px 0 0 0;
-     font-size: 6em;
-    text-shadow: 3px 3px 0px rgba(255, 255, 255, 1);
-     background: rgba(255, 255, 255, 0.3);
+     font-size: 3em;
+     font-family: Roboto Slab;
+     color: #ffffff;
+
    }
