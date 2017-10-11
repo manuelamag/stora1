@@ -64,7 +64,7 @@ main {
     .col-sm-3 {
       width: 25%; } }
 
-head {
+header {
   display: flex;
   flex-direction: column;
   margin-bottom: 2em;
@@ -72,7 +72,11 @@ head {
   width: 100%;
   min-height: 500px;
   background: transparent url("gogn/bg-subpage.jpg") no-repeat 50% 50%;
-  background-size: cover; }
+  background-size: cover;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  height: 80%; }
 
 .heading__one {
   box-sizing: border-box;
@@ -80,9 +84,9 @@ head {
   height: 100%;
   margin: 0;
   padding: 100px 0 0 0;
-  font-size: 6em;
-  text-shadow: 3px 3px 0px white;
-  background: rgba(255, 255, 255, 0.3); }
+  font-size: 3em;
+  font-family: Roboto Slab;
+  color: #ffffff; }
 
 .heading {
   width: 100%;
@@ -98,11 +102,22 @@ head {
     font-size: 1rem; }
 
 .text__p {
-  font-family: 'Open Sans'; }
+  margin: auto;
+  line-height: 1.5;
+  width: 100%;
+  font-family: 'Open Sans';
+  display: block;
+  word-break: break-all; }
 
-blockquote {
-  margin: 1em 0 1em 2em;
-  line-height: 1.5; }
+.instructions {
+  float: right;
+  margin: 5em 5em 5em 5em;
+  word-break: break-all;
+  width: 500px; }
+  .instructions__p {
+    text-align: left;
+    font-size: 0.5em;
+    margin: 2em 2em 2em 2em; }
 
 .button {
   display: inline-block;
