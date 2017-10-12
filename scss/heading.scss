@@ -6,16 +6,24 @@
 
   font-family: Roboto Slab;
   font-size: 2rem;
-
-  &--one {
-    font-size: 3rem;
-  }
-
-  &--two {
-    font-size: 2rem;
-  }
-
-  &--three {
-    font-size: 1rem;
-  }
 }
+
+.heading___two {
+  font-size: 1em;
+  font-family: Roboto Slab;
+  margin: 1em 1em 0em 0.5em;
+  line-height: 1.5;
+  width: 100%;
+
+}
+
+.heading__one {
+     box-sizing: border-box;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     padding: 100px 0 0 0;
+     font-size: 3em;
+     font-family: Roboto Slab;
+     color: #ffffff;
+   }
