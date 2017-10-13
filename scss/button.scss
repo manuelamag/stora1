@@ -30,7 +30,27 @@
   &:hover {
     color: #eee;
     background-color: #333;
-    
-  }
 
+  }
+}
+
+
+
+span > .button__2 {
+  text-align: center;
+  align-items: center;
+
+}
+
+.hero_text_button {
+  margin-top: 2em;
+  border: 1px solid #666;
+  display: inline-block;
+  padding: 10px 25px;
+  color: #eee;
+  background-color: #666;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  cursor: pointer;
 }
