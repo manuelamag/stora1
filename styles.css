@@ -100,7 +100,8 @@ header {
   font-family: Roboto Slab;
   margin: 1em 1em 0em 0.5em;
   line-height: 1.5;
-  width: 100%; }
+  width: 100%;
+  color: red; }
 
 .heading__one {
   box-sizing: border-box;
@@ -112,25 +113,28 @@ header {
   font-family: Roboto Slab;
   color: #ffffff; }
 
-.heading__One {
+.hero__heading__1 {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
   margin: auto;
   padding: auto;
-  font-size: 3em;
+  font-size: 5em;
   font-family: Roboto Slab;
   color: #000;
   text-align: center; }
 
-.heading___Two {
-  font-size: 1em;
+.hero__heading__2 {
+  font-size: 3em;
   font-family: Roboto Slab;
   margin: auto;
   line-height: 1.5;
   width: 100%;
   text-align: center;
   padding: auto; }
+
+.h3 {
+  align-items: center; }
 
 .text__p {
   margin: auto;
