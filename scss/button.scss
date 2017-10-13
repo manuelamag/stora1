@@ -34,12 +34,17 @@
   }
 }
 
+.column-12 {
+  width: 100%;
+}
 
-
-span > .button__2 {
+.column-12 > .button__2 {
   text-align: center;
   align-items: center;
-
+  display: block;
+  margin: auto;
+  padding: 5px 5px;
+  max-width: 150px;
 }
 
 .hero_text_button {

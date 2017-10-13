@@ -7,22 +7,42 @@
   display: flex;
   margin: auto;
 
+
+
   &__col{
   flex-flow: wrap;
   flex-direction: column;
-  display: flex;
+  display: block;
   flex-wrap: nowrap;
   justify-content: space-around;
+  width: 100%;
+  margin: auto;
+  align-items: flex-end;
 }
+
   & .circular--square{
     border-radius:200px;
   }
 
 & .text{
-  text-align: center;
+  text-align:center;
   font-weight: bold;
   font-size: 12px;
   overflow: visible;
+
+
+
+}
+
+& .text1{
+  text-align: center;
+  font-weight: normal;
+  font-size: 12px;
+  overflow: visible;
+  padding: 0px;
+  margin: auto;
+  align-items: flex-end;
+
 }
 
 & .text__p{
@@ -30,17 +50,25 @@
   font-size: 12px;
   }
 
+
+
 & h4{
 font-family: 'open sans';
-  align-items:center;
+  align-items:flex-end;
   font-size: 12px;
-
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-weight: 400 italic;
 }
 
 &.row{
   padding: 15px;
   flex-direction: row;
   flex-flow: wrap;
+  width: 100%;
+  display: block;
+  margin: auto;
 
 }
 
@@ -49,14 +77,19 @@ font-family: 'open sans';
     display: flex;
     flex-direction: column;
     flex-flow: wrap;
+    width: 100%;
+    display: block;
+    margin: auto;
   }
 
   &__col {
-    width: 50%;
+    width: 100%;
     flex-direction: column;
     display: inline-block;
     padding: 10px;
-    align-items: center;
+    align-items: flex-end;
+    display: block;
+    margin: auto;
   }
 
 @media(max-width: 600px){
