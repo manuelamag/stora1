@@ -300,9 +300,4 @@ p {
 .column {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  background-color: #000000;
-  line-height: 1.5em;
-  font-size: 180em; }
-  .column legend {
-    font-size: 180em; }
+  flex-direction: column; }
