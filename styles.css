@@ -69,7 +69,7 @@ header {
   flex-direction: column;
   margin-bottom: 2em;
   padding: 2em;
-  min-height: 500px;
+  min-height: 450px;
   background: transparent url("gogn/bg-subpage.jpg") no-repeat 50% 50%;
   background-size: cover;
   max-width: 1200px;
@@ -374,9 +374,10 @@ li {
     display: inline;
     padding: 8px; }
 
-.column {
-  display: flex; }
-  .column section {
-    display: block;
-    flex-wrap: wrap;
-    flex-direction: column; }
+.column #left {
+  float: left;
+  align-content: center; }
+
+.column #right {
+  float: right;
+  align-items: center; }

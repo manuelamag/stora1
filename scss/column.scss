@@ -1,10 +1,18 @@
 .column {
-  display: flex;
-  
-  section{
 
-  display: block;
-  flex-wrap: wrap;
-  flex-direction: column;
+#left{
+float: left;
+align-content: center;
 }
+
+#right{
+  float: right;
+  align-items: center;
+}
+//  section{
+
+  //display: block;
+  //flex-wrap: wrap;
+  //flex-direction: column;
+//}
 }
