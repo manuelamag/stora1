@@ -339,7 +339,7 @@ li {
   width: 95%;
   text-align: center; }
 
-p {
+.panel p {
   margin: auto;
   width: 50%;
   padding: 10px;
@@ -375,6 +375,8 @@ p {
     padding: 8px; }
 
 .column {
-  display: block;
-  flex-wrap: wrap;
-  flex-direction: column; }
+  display: flex; }
+  .column section {
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column; }

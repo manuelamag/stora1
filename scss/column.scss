@@ -1,5 +1,10 @@
 .column {
+  display: flex;
+  
+  section{
+
   display: block;
   flex-wrap: wrap;
   flex-direction: column;
+}
 }
