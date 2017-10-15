@@ -152,9 +152,13 @@ header {
     font-size: 0.5em;
     margin: 2em 2em 2em 2em; }
 
+.text {
+  font-size: 1em; }
+
 .text_1 {
   text-align: center;
-  width: 100%; }
+  width: 100%;
+  font-weight: bold; }
 
 .button {
   display: inline-block;
@@ -275,15 +279,16 @@ header {
     align-items: flex-end; }
   .cardlist .text__p {
     text-align: center;
-    font-size: 12px; }
+    font-size: 14px; }
   .cardlist h4 {
     font-family: 'open sans';
     align-items: flex-end;
-    font-size: 12px;
+    font-size: 14px;
     margin: auto;
     display: block;
     text-align: center;
-    font-weight: 400 italic; }
+    font-weight: 400 italic;
+    padding: 20px; }
   .cardlist.row {
     padding: 15px;
     flex-direction: row;
