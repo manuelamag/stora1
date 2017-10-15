@@ -31,9 +31,7 @@
     color: #eee;
     background-color: #333;
   }
-  .sg-example{
-    align-items: center;
-  }
+
 }
 
 .column-12 {
@@ -48,6 +46,7 @@
   padding: 5px 5px;
   max-width: 120px;
   margin-bottom: 20px;
+
 }
 
 .hero_text_button {
@@ -62,7 +61,7 @@
   font-size: 2em;
   cursor: pointer;
   &hover {
-    olor: #eee;
+    color: #eee;
     background-color: #333;
 
   }

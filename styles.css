@@ -180,8 +180,6 @@ header {
   .button:hover {
     color: #eee;
     background-color: #333; }
-  .button .sg-example {
-    align-items: center; }
 
 .column-12 {
   width: 100%; }
@@ -207,7 +205,7 @@ header {
   font-size: 2em;
   cursor: pointer; }
   .hero_text_buttonhover {
-    olor: #eee;
+    color: #eee;
     background-color: #333; }
 
 .card {
