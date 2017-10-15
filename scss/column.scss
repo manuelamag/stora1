@@ -1,5 +1,7 @@
 .column {
   display: block;
-  flex-wrap: wrap;
   flex-direction: column;
+  margin: auto;
+  float: left;
+max-height: 200px;
 }
