@@ -3,7 +3,6 @@ width:1200px;
 overflow: hidden;
 font-size: 1.2em;
 width: 100%;
-
 line-height: 1.5em;
 
 .left{
@@ -24,8 +23,16 @@ input {
     padding-right: 24px;
 }
 
-}
 legend{
 
   font-size:1.5rem;
+}
+
+@media (max-width: 600px){
+  .left & .right{
+    flex-direction: column;
+    padding: 60px;
+    width: 600px;
+  }
+}
 }

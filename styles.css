@@ -489,6 +489,10 @@ li {
   .column input {
     display: grid;
     padding-right: 24px; }
-
-legend {
-  font-size: 1.5rem; }
+  .column legend {
+    font-size: 1.5rem; }
+  @media (max-width: 600px) {
+    .left .column .right {
+      flex-direction: column;
+      padding: 60px;
+      width: 600px; } }
