@@ -247,7 +247,7 @@ header {
   animation: fadein 10s;
   cursor: pointer; }
   .hero_text_buttonhover {
-    olor: #eee;
+    color: #eee;
     background-color: #333; }
 
 @keyframes fadein {
