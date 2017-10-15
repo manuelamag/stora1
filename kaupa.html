@@ -9,33 +9,33 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="grid.css">
 </head>
-<main>
-
-<nav class ="nav">
-  <h1 class="nav__title"> Fooþjónustan </h1>
-    <span class="nav__list">
-      <a href="um.html" class="text">Um</a>
-    <a href="kaupa.html" class="button button__1">Kaupa</a>
-    </span>
-</nav>
 <body>
-  <div class="grid">
-    <div class="col col-12 col-sm-12">
-    <div class="column">
-      <div>
+  <header>
+    <h1 class="heading__one">Kaupa</h1>
+  </header>
+  <main>
+  <nav class ="nav">
+    <h1 class="nav__title"> Fooþjónustan </h1>
+      <span class="nav__list">
+        <a href="um.html" class="text">Um</a>
+        <a href="kaupa.html" class="button button__1">Kaupa</a>
+      </span>
+  </nav>
 
-        <legend>Persónuupplýsingar</legend>
-          <div class "col col-12">
-          <div>
+  <div class="grid">
+  <div class="column">
+    <div id="left">
+      <legend>Persónuupplýsingar</legend>
+          <div class="col col-12">
             <label for="name">Nafn:</label>
           </div>
-          <div class "col col-12">
+          <div class="col col-12">
             <input type="text" name="name" id="name" required>
           </div>
-          <div>
+          <div class="col col-12">
             <label for="Kennitala">Kennitala:</label>
           </div>
-          <div class "col col-12">
+          <div class="col col-12">
             <input type="text" name="Kennitala" id="Kennitala" value="123456-7890" /* autocomplete="off" tabindex="1"*/ required>
           </div>
           <label for="name">Kyn:</label>
@@ -55,61 +55,51 @@
             </div>
           </label>
           </div>
-            <div>
+          <div>
               <label for="Sími">Sími:</label>
             </div>
-            <div class "col col-12">
+          <div class "col col-12">
               <input type="text" name="Sími" id="Sími" value="+354 812 3456"required>
             </div>
-            <div>
+          <div>
               <label for="Heimilisfang">Heimilisfang:</label>
             </div>
-            <div class "col col-12">
+          <div class "col col-12">
               <input type="text" name="Heimilisfang" id="Heimilisfang" required>
             </div>
-            <div>
+          <div>
               <label>
                 <input type="checkbox" name="Skrá mig á póstlista" checked> Skrá mig á póstlista
               </label>
             </div>
-            </div>
-            </div>
-            </div>
 
-<div class="col col-12 col-sm-12">
-<div class="column">
-  <div>
-
+    <div id="right">
     <legend>Greiðsluupplýsingar</legend>
-     <div>
+     <div class="col col-12 col-sm-12">
        <label for="service">Greiða með:</label>
      </div>
-  <div class "col col-12 col-sm-12">
-  <select name="service" id="service">
-    <option>Kredidkorti</option>
-    <option>Millifærslu</option>
-    <option>Reiðufé</option>
-  </select>
-  </div>
-<div>
-  <label for="Nafn á korti">Nafn á korti:</label>
-</div>
-<div class "col col-12 col-sm-12">
-  <input type="text" name="Nafn á korti" id="Nafn á korti" required>
-</div>
-
-  <div>
-    <label for="Kortanúmer">Kortanúmer:</label>
-  </div>
-  <div class "col col-12">
-    <input type="text" name="kortanúmer" id="kortnúmer" value="5999-9999-9999-9999" required>
-  </div>
-
-  <div class="col col-12 col-sm-12">
-    <label for="service">Gildistími:</label>
-  </div>
-  <div>
-    <select name="service" id="service"> Mán
+      <div class="col col-12 col-sm-12">
+        <select name="service" id="service">
+          <option>Kredidkorti</option>
+          <option>Millifærslu</option>
+          <option>Reiðufé</option>
+        </select>
+      </div>
+        <label for="Nafn á korti">Nafn á korti:</label>
+      <div class="col col-12 col-sm-12">
+        <input type="text" name="Nafn á korti" id="Nafn á korti" required>
+      </div>
+      <div class="col col-12 col-sm-12">
+        <label for="Kortanúmer">Kortanúmer:</label>
+      </div>
+      <div class="col col-12">
+        <input type="text" name="kortanúmer" id="kortnúmer" value="5999-9999-9999-9999" required>
+      </div>
+      <div class="col col-12 col-sm-12">
+        <label for="service">Gildistími:</label>
+      </div>
+      <div>
+        <select name="service" id="service"> Mán
       <option>01</option>
       <option>02</option>
       <option>03</option>
@@ -123,24 +113,21 @@
       <option>11</option>
       <option>12</option>
     </select>
-    <select name="service" id="service"> Ár
+        <select name="service" id="service"> Ár
       <option>2017</option>
       <option>2018</option>
       <option>2019</option>
       <option>2020</option>
     </select>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="sg-example">
+    <button class="button button__panta">Panta</button>
   </div>
 </div>
-<div class="sg-example">
-
-<button class="button button__panta">Panta</button>
-</div>
-
-</div>
-</div>
-
-
-
 
 
 <footer class = "1-footer-wrapper">
@@ -165,6 +152,6 @@
       </div>
     </div>
 </footer>
-</body>
 </main>
+</body>
 </html>
