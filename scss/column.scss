@@ -1,27 +1,31 @@
 .column {
-  width:1200px;
-  overflow: hidden;
-  font-size: 1.5em;
+width:1200px;
+overflow: hidden;
+font-size: 1.2em;
+width: 100%;
+
+line-height: 1.5em;
 
 .left{
 float: left;
-align-content: center;
-width:600px;
+width: 600px;
+padding: 90px;
 }
 
 .right{
   float: right;
   width:600px;
-  align-content: center;
+  padding: 90px;
+
 }
-//  section{
+input {
 
-  //display: block;
-  //flex-wrap: wrap;
-  //flex-direction: column;
-//}
+    display: grid;
+    padding-right: 24px;
+}
 
+}
+legend{
 
-
-
+  font-size:1.5rem;
 }
