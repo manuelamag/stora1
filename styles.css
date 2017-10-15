@@ -374,10 +374,15 @@ li {
     display: inline;
     padding: 8px; }
 
-.column #left {
-  float: left;
-  align-content: center; }
-
-.column #right {
-  float: right;
-  align-items: center; }
+.column {
+  width: 1200px;
+  overflow: hidden;
+  font-size: 1.5em; }
+  .column .left {
+    float: left;
+    align-content: center;
+    width: 600px; }
+  .column .right {
+    float: right;
+    width: 600px;
+    align-content: center; }
