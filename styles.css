@@ -129,6 +129,9 @@ header {
   font-family: 'Roboto Slab', serif;
   color: #ffffff; }
 
+.heading__four {
+  font-style: italic; }
+
 .hero_text {
   text-align: center;
   position: absolute;
@@ -190,7 +193,7 @@ header {
   margin: auto;
   line-height: 1.5;
   width: 100%;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   display: block;
   word-break: break-all;
   margin-bottom: 2em; }
