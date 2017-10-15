@@ -192,7 +192,8 @@ header {
   display: block;
   margin: auto;
   padding: 5px 5px;
-  max-width: 150px; }
+  max-width: 120px;
+  margin-bottom: 20px; }
 
 .hero_text_button {
   margin-top: 2em;
@@ -205,6 +206,9 @@ header {
   text-decoration: none;
   font-size: 2em;
   cursor: pointer; }
+  .hero_text_buttonhover {
+    olor: #eee;
+    background-color: #333; }
 
 .card {
   width: 100%;
