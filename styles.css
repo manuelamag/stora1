@@ -219,25 +219,25 @@ h3 {
 
 .button {
   display: inline-block;
-  margin: 0;
   padding: 10px 5px;
+  margin: 0;
   border: 1px solid #666;
-  border-radius: 2.5px;
   width: 100%;
+  border-radius: 2.5px;
   max-width: 256px;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
   color: #eee;
+  white-space: nowrap;
+  font-family: "open sans";
+  font-size: 2rem;
   background-color: #666;
-  font-family: 'open sans';
-  font-size: 2 rem;
   text-decoration: none;
   text-align: center;
-  transition: color 500ms ease, background-color 500ms ease;
-  cursor: pointer;
+  margin-right: auto;
   margin-left: auto;
-  margin-right: auto; }
+  cursor: pointer;
+  transition: color 500ms ease, background-color 500ms ease; }
   .button:hover {
     color: #eee;
     background-color: #333; }
@@ -246,27 +246,27 @@ h3 {
   width: 100%; }
 
 .column-12 > .button__2 {
+  display: block;
   text-align: center;
   align-items: center;
-  display: block;
-  margin: auto;
-  padding: 8px 8px;
   max-width: 160px;
+  padding: 8px;
+  margin: auto;
   margin-bottom: 60px;
   font-size: 1.5em; }
 
 .hero_text_button {
   margin-top: 2em;
-  border: 1px solid #666;
   display: inline-block;
+  border: 1px solid #666;
   padding: 10px 25px;
   color: #eee;
-  background-color: #666;
   text-align: center;
-  text-decoration: none;
+  background-color: #666;
   font-size: 2em;
+  text-decoration: none;
+  font-family: "open sans";
   animation: fadein 10s;
-  font-family: 'open sans';
   cursor: pointer; }
   .hero_text_buttonhover {
     color: #eee;
