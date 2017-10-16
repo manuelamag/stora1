@@ -29,6 +29,12 @@
      font-size: 3em;
      font-family: 'Roboto Slab', serif;
      color: #ffffff;
+
+     @media (max-width: 400px) {
+       font-size: 1em;
+
+
+     }
    }
 }
 
