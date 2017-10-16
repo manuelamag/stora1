@@ -4,7 +4,7 @@ form {
   overflow: hidden;
   font-size: 1.2em;
   width: 100%;
-  line-height: 1.5em;
+  line-height: 2em;
 justify-content: space-around;
 
   .flex-outer {
@@ -13,6 +13,9 @@ justify-content: space-around;
 
     margin: auto;
     padding: 50px;
+    @media (min-width: 600px) {
+      align-items: flex-start;
+    }
   }
 
 .flex-inner{
@@ -24,4 +27,16 @@ justify-content: space-around;
 font-size: 1em;
 list-style-type: none;
 }
+
+legend{
+
+  font-size:1.5rem;
+}
+
+label{
+  display: block;
+}
+
+
+
 }
