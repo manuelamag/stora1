@@ -11,7 +11,9 @@
 
   flex-direction: column;
   font-family: 'open sans';
-  margin-top: 100px;
+  margin-top: 7rem;
+  align-items:flex-end;
+
 
   &__heading {
     margin-bottom: 5px;
@@ -22,15 +24,17 @@
     font-weight: bolder;
 
     word-break: break-word;
+
   }
 
   &__content {
   margin-left: 40px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     width: 100%;
+
   }
 
   &__text {
@@ -43,6 +47,7 @@
     width: 30px;
     max-width: 30px;
     position: absolute;
+<<<<<<< HEAD
     margin-top: 50px;
   }
  .img__card {
@@ -50,4 +55,16 @@
   }
 
 
+=======
+    margin-top: 0px;
+
+    }
+
+    &__image__big {
+       float: right;
+       margin-top: 6rem;
+       margin-bottom: 6rem;
+       align-items: flex-start;
+  }
+>>>>>>> 3048ae875543f8e58e417f47834b2167459237d7
 }

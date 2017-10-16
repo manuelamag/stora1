@@ -1,12 +1,14 @@
 .cardlist {
 
   font-family: 'open sans';
-  width: 80%;
+  width: 100%;
   flex-direction: row;
   flex-wrap: nowrap;
   display: flex;
   margin: auto;
   justify-content: space-around;
+
+
 
 
 
@@ -16,14 +18,14 @@
   display: block;
   flex-wrap: nowrap;
   justify-content: space-around;
-  width: 100%;
-  margin: auto;
-  align-items: flex-end;
+
 }
 
   & .circular--square{
     border-radius:200px;
-
+    height: 300px;
+    margin-left: 60px;
+    margin-right: 60px;
   }
 
 & .text__cardlist{
@@ -31,6 +33,8 @@
   font-weight: bold;
   font-size: 16px;
   overflow: visible;
+  padding: 5px;
+  align-items: flex-end;
 }
 
 & .text__cardlist__1{
@@ -52,12 +56,13 @@
 & h4{
   font-family: 'open sans';
   align-items:flex-end;
-  font-size: 18px;
+  font-size: 16px;
   margin: auto;
   display: block;
   text-align: center;
-  font-weight:600;
-  padding: 20px;
+  padding: 0px;
+  font-style: italic;
+  width: 100%;
 }
 
 &.row{
