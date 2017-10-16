@@ -1,28 +1,31 @@
-.text__p {
-  display: block;
+.nav {
+  display: inline-block;
   width: 100%;
-  margin: auto;
-  margin-bottom: 2em;
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.5;
-  word-break: keep-all; }
-
-.instructions {
-  float: right;
-  width: 500px;
-  margin: 5em;
-  word-break: keep-all; }
-  .instructions__p {
-    margin: 2em;
-    font-size: 0.5em;
-    text-align: left; }
-
-.text {
-  font-size: 1em; }
-
-.text_1 {
-  width: 100%;
-  padding-bottom: 10px;
-  font-family: "Roboto slab";
-  font-weight: bold;
-  text-align: center; }
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 5px;
+  height: 40px;
+  font-family: "open sans";
+  background-color: #000;
+  position: fixed;
+  max-width: 1200px;
+  font-size: 1rem;
+  margin: auto; }
+  .nav__title {
+    color: #fff;
+    display: inline;
+    padding: 8px; }
+  .nav .button {
+    display: inline;
+    padding: 8px; }
+  .nav .nav__list {
+    float: right; }
+  .nav a {
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px; }
+  @media (max-width: 400px) {
+    .nav {
+      font-size: 0.5em; } }
