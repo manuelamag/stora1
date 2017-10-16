@@ -333,10 +333,7 @@ header {
   .card__image {
     width: 30px;
     max-width: 30px;
-    position: absolute;
-    margin-top: 50px; }
-  .card .img__card {
-    float: right; }
+    position: absolute; }
   .card__image__big {
     float: right;
     margin-top: 6rem;
@@ -360,8 +357,8 @@ header {
   .cardlist .circular--square {
     border-radius: 200px;
     height: 300px;
-    margin-left: 60px;
-    margin-right: 60px; }
+    margin-left: 30px;
+    margin-right: 30px; }
   .cardlist .text__cardlist {
     text-align: center;
     font-weight: bold;
