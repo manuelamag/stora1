@@ -4,18 +4,24 @@ form {
   overflow: hidden;
   font-size: 1.2em;
   width: 100%;
-  line-height: 2em;
+  line-height: 1em;
 justify-content: space-around;
+font-family: 'open sans';
+
 
   .flex-outer {
     display: flex;
     flex-wrap: wrap;
-
     margin: auto;
     padding: 50px;
     @media (min-width: 600px) {
       align-items: flex-start;
     }
+  }
+
+  @media (max-width: 600px) {
+    align-items: flex-start;
+
   }
 
 .flex-inner{
@@ -29,14 +35,36 @@ list-style-type: none;
 }
 
 legend{
+<<<<<<< HEAD
 
   font-size:1.5rem;
+=======
+line-height: 3em;
+font-size:1.5rem;
+
+>>>>>>> d3b2acfe1bf99229a977b6c94c1e3c3cb7f818c7
 }
 
 label{
   display: block;
 }
+<<<<<<< HEAD
 
+=======
+input{
+
+line-height: 1.5em;
+
+}
+input #kyn{
+padding-right: 20px;
+
+}
+p{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+>>>>>>> d3b2acfe1bf99229a977b6c94c1e3c3cb7f818c7
 
 
 }

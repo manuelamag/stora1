@@ -1,35 +1,74 @@
-footer {
-  max-width: 100%;
-  padding-top: 10px;
-  font-size: 0.8em;
-  color: #fff;
-  list-style: none;
-  list-style-type: none;
-  background-color: rgba(0, 0, 0, 0.65); }
-
-li {
-  margin-top: 5px; }
-
-.block__content {
-  columns: 2;
-  max-width: 50%;
+.cardlist {
+  font-family: 'open sans';
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  display: flex;
   margin: auto;
-  font-size: 1em;
-  line-height: 100%;
-  text-align: center;
-  vertical-align: baseline;
-  list-style: none;
-  list-style-type: none;
-  flex-direction: column; }
-
-.panel {
-  width: 95%;
-  margin: auto;
-  text-align: center;
-  border-top: groove #fff; }
-
-.panel p {
-  display: block;
-  width: 50%;
-  padding: 10px;
-  margin: auto; }
+  justify-content: space-around; }
+  @media (max-width: 400px) {
+    .cardlist {
+      flex-direction: column;
+      flex-wrap: nowrap; } }
+  .cardlist__col {
+    flex-flow: wrap;
+    flex-direction: column;
+    display: block;
+    flex-wrap: nowrap;
+    justify-content: space-around; }
+  .cardlist .circular--square {
+    border-radius: 200px;
+    height: 300px;
+    margin-left: 30px;
+    margin-right: 30px; }
+  .cardlist .text__cardlist {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    overflow: visible;
+    padding: 5px;
+    align-items: flex-end; }
+  .cardlist .text__cardlist__1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    overflow: visible;
+    padding: 0px;
+    margin: auto;
+    align-items: flex-end; }
+  .cardlist .text__p {
+    text-align: center;
+    font-size: 14px; }
+  .cardlist h4 {
+    font-family: 'open sans';
+    align-items: flex-end;
+    font-size: 20px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    font-style: italic;
+    width: 100%; }
+  .cardlist.row {
+    padding: 15px;
+    flex-direction: row;
+    flex-flow: wrap;
+    width: 100%;
+    display: block;
+    margin: auto; }
+  .cardlist__row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    width: 100%;
+    display: block;
+    margin: auto; }
+  .cardlist__col {
+    width: 100%;
+    flex-direction: column;
+    display: inline-block;
+    padding: 10px;
+    align-items: flex-end;
+    display: block;
+    margin: auto; }
