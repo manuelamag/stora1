@@ -415,6 +415,25 @@ header {
       min-width: 400px;
       object-fit: cover; } }
 
+form {
+  width: 1200px;
+  overflow: hidden;
+  font-size: 1.2em;
+  width: 100%;
+  line-height: 1.5em;
+  justify-content: space-around; }
+  form .flex-outer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 50px; }
+  form .flex-inner {
+    list-style-type: none; }
+  form .left,
+  form .right {
+    font-size: 1em;
+    list-style-type: none; }
+
 footer {
   background-color: rgba(0, 0, 0, 0.65);
   color: #ffffff;
@@ -477,28 +496,3 @@ li {
     text-decoration: none;
     display: inline;
     padding: 8px; }
-
-.column {
-  width: 1200px;
-  overflow: hidden;
-  font-size: 1.2em;
-  width: 100%;
-  line-height: 1.5em; }
-  .column .left {
-    float: left;
-    width: 600px;
-    padding: 90px; }
-  .column .right {
-    float: right;
-    width: 600px;
-    padding: 90px; }
-  .column input {
-    display: grid;
-    padding-right: 24px; }
-  .column legend {
-    font-size: 1.5rem; }
-  @media (max-width: 600px) {
-    .left .column .right {
-      flex-direction: column;
-      padding: 60px;
-      width: 600px; } }
