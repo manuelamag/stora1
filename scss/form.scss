@@ -21,7 +21,6 @@ font-family: 'open sans';
 
   @media (max-width: 600px) {
     align-items: flex-start;
-
   }
 
 .flex-inner{
@@ -35,22 +34,17 @@ list-style-type: none;
 }
 
 legend{
-<<<<<<< HEAD
 
-  font-size:1.5rem;
-=======
 line-height: 3em;
 font-size:1.5rem;
 
->>>>>>> d3b2acfe1bf99229a977b6c94c1e3c3cb7f818c7
+
 }
 
 label{
   display: block;
 }
-<<<<<<< HEAD
 
-=======
 input{
 
 line-height: 1.5em;
@@ -64,7 +58,7 @@ p{
   padding-bottom: 10px;
   padding-top: 10px;
 }
->>>>>>> d3b2acfe1bf99229a977b6c94c1e3c3cb7f818c7
+
 
 
 }

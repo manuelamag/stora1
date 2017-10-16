@@ -22,6 +22,10 @@
   & .button {
     display: inline;
     padding: 8px;
+    @media (max-width: 400px) {
+
+display: none;
+      }
   }
 
   &__list{
@@ -36,6 +40,7 @@
     }
 
 @media (max-width: 400px) {
-    font-size: 0.5em;
+    font-size: 1em;
+
   }
 }
