@@ -1,32 +1,36 @@
 .text {
   &__p {
-    margin: auto;
-    line-height: 1.5;
-    width: 100%;
-    font-family: 'Open Sans', sans-serif;
     display: block;
-    word-break: break-all;
+    width: 100%;
+    margin: auto;
     margin-bottom: 2em;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    word-break: keep-all;
   }
 }
+
 .instructions {
   float: right;
-   margin: 5em 5em 5em 5em;
-   word-break: break-all;
-   width: 500px;
-   &__p {
-     text-align: left;
-     font-size: 0.5em;
-     margin: 2em 2em 2em 2em;
-   }
+  width: 500px;
+  margin: 5em;
+  word-break: keep-all;
+
+  &__p {
+    margin: 2em;
+    font-size: 0.5em;
+    text-align: left;
+  }
 }
+
 .text {
   font-size: 1em;
 }
-.text_1{
-  text-align: center;
+
+.text_1 {
   width: 100%;
-  font-family: 'Roboto slab';
-  font-weight: bold;
   padding-bottom: 10px;
+  font-family: "Roboto slab";
+  font-weight: bold;
+  text-align: center;
 }
