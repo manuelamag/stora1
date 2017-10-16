@@ -24,8 +24,8 @@
   & .circular--square{
     border-radius:200px;
     height: 300px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
 & .text__cardlist{
@@ -34,7 +34,7 @@
   font-size: 16px;
   overflow: visible;
   padding: 5px;
-  align-items: flex-end;
+  align-items:flex-end;
 }
 
 & .text__cardlist__1{
@@ -56,11 +56,11 @@
 & h4{
   font-family: 'open sans';
   align-items:flex-end;
-  font-size: 16px;
+  font-size: 20px;
   margin: auto;
   display: block;
   text-align: center;
-  padding: 0px;
+  padding: 5px;
   font-style: italic;
   width: 100%;
 }
