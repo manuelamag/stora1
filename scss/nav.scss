@@ -22,6 +22,10 @@
   & .button {
     display: inline;
     padding: 8px;
+
+    @media (max-width: 400px){
+      display: none;
+    }
   }
 
   &__list {
