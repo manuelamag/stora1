@@ -1,43 +1,42 @@
 footer {
-  background-color: rgba(0, 0, 0, 0.65);
-  color: #ffffff;
-  list-style: none;
-  list-style-type: none;
-  font-size: 0.8em;
   max-width: 100%;
   padding-top: 10px;
-  font-family: 'Open sans'
+  font-size: 0.8em;
+  color: #fff;
+  list-style: none;
+  list-style-type: none;
+  background-color: rgba(0, 0, 0, 0.65);
+
 }
 
- li{
-   margin-top: 5px;
- }
+li {
+  margin-top: 5px;
+}
 
 .block__content {
   columns: 2;
+  max-width: 50%;
+  margin: auto;
   font-size: 1em;
-  flex-direction: column;
-  vertical-align: baseline;
+  line-height: 100%;
   text-align: center;
+  vertical-align: baseline;
   list-style: none;
   list-style-type: none;
-  margin: auto;
-  max-width: 50%;
-  line-height: 100%;
+  flex-direction: column;
+
 }
 
-
-.panel{
-  margin: auto;
-  border-top: groove #ffffff;
+.panel {
   width: 95%;
+  margin: auto;
   text-align: center;
+  border-top: groove #fff;
 }
 
 .panel p {
-      margin: auto;
-      width: 50%;
-      padding: 10px;
-      display: block;
-
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin: auto;
 }

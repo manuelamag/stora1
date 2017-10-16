@@ -1,66 +1,65 @@
 form {
-
-  width:1200px;
-  overflow: hidden;
-  font-size: 1.2em;
   width: 100%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin-left: 160px;
+  font-family: 'open sans';
+  font-size: 1.2em;
   line-height: 1em;
   justify-content: space-around;
-font-family: 'open sans';
-margin-left: 160px;
-
 
   .flex-outer {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
     padding: 50px;
+    margin: auto;
+    @media (min-width: 600px) {
+      align-items: flex-start;
+    }
   }
 
   @media (max-width: 600px) {
     align-items: flex-start;
   }
 
-.flex-inner{
-  list-style-type: none;
-  display: flex;
-}
-.flex-inner-1{
-  list-style-type: none;
-}
+  .flex-inner {
+    display: flex;
+    list-style-type: none;
+  }
 
+  .flex-inner-1 {
+    list-style-type: none;
+  }
 
-.left,
-.right {
-font-size: 1.2rem;
-list-style-type: none;
-}
+  .left,
+  .right {
+    font-size: 1.2rem;
+    list-style-type: none;
+  }
 
-legend{
-line-height: 3em;
-font-size:1.5rem;
+  legend {
+    font-size:1.5rem;
+    line-height: 3em;
+  }
 
-}
+  label {
+    display: block;
+    padding-top: 20px;
+  }
 
-label{
-  display: block;
-  padding-top: 20px;
+  input {
+    line-height: 1.5em;
+  }
 
-}
-input{
-line-height: 1.5em;
+  input #kyn {
+    padding-right: 20px;
+    line-height: 1em;
+  }
 
+  p {
+    padding-top: 10px;
+    padding-bottom: 10px;
 
-}
-input #kyn{
-padding-right: 20px;
-line-height: 1em;
-
-}
-p{
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
+  }
 
 }
