@@ -1,84 +1,41 @@
-.text__p {
-  margin: auto;
-  line-height: 1.5;
+.card {
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
-  display: block;
-  word-break: break-all;
-  margin-bottom: 2em; }
-
-.instructions {
-  float: right;
-  margin: 5em 5em 5em 5em;
-  word-break: break-all;
-  width: 500px; }
-  .instructions__p {
-    text-align: left;
-    font-size: 0.5em;
-    margin: 2em 2em 2em 2em; }
-
-.text {
-  font-size: 1em; }
-
-.text_1 {
-  text-align: center;
-  width: 100%;
-  font-family: 'Roboto slab';
-  font-weight: bold;
-  padding-bottom: 10px;
-  font-size: 16px;
-  overflow: visible;
-  padding: 5px;
+  min-width: 200px;
+  max-width: 600px;
+  overflow: hidden;
+  border-radius: 3px;
+  background-color: #ffffff;
+  flex-direction: column;
+  font-family: 'open sans';
+  margin-top: 7rem;
   align-items: flex-end; }
-
-  .cardlist .text__cardlist__1 {
-    text-align: center;
-    font-weight: normal;
-    font-size: 14px;
-    overflow: visible;
-    padding: 0px;
-    margin: auto;
-    align-items: flex-end; }
-  .cardlist .text__p {
-    text-align: center;
-    font-size: 14px; }
-  .cardlist h4 {
-    font-family: 'open sans';
-    align-items: flex-end;
-    font-size: 16px;
-    margin: auto;
-    display: block;
-    text-align: center;
-    padding: 0px;
-    font-style: italic;
-    width: 100%; }
-  .cardlist.row {
-    padding: 15px;
-    flex-direction: row;
-    flex-flow: wrap;
+  .card__heading {
+    margin-bottom: 5px;
     width: 100%;
-    display: block;
-    margin: auto; }
-  .cardlist__row {
-    width: 100%;
+    font-family: 'roboto slab';
+    font-size: 1.5em;
+    font-weight: bolder;
+    word-break: break-word; }
+  .card__content {
+    margin-left: 40px;
     display: flex;
     flex-direction: column;
-    flex-flow: wrap;
-    width: 100%;
-    display: block;
-    margin: auto; }
-  .cardlist__col {
-    width: 100%;
-    flex-direction: column;
-    display: inline-block;
-    padding: 10px;
-    align-items: flex-end;
-    display: block;
-    margin: auto; }
-  @media (max-width: 600px) {
-    .cardlist {
-      min-width: 300px;
-      width: 100%;
-      height: 100%;
-      min-width: 400px;
-      object-fit: cover; } }
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 100%; }
+  .card__text {
+    margin-bottom: 10px;
+    margin-right: 10px; }
+  .card__image {
+    width: 30px;
+    max-width: 30px;
+    position: absolute;
+    margin-top: 50px; }
+  .card .img__card {
+    float: right;
+    margin-top: 0px; }
+  .card__image__big {
+    float: right;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    align-items: flex-start; }

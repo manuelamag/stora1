@@ -17,50 +17,38 @@
 
   &__heading {
     margin-bottom: 5px;
-
     width: 100%;
     font-family: 'roboto slab';
     font-size: 1.5em;
     font-weight: bolder;
-
     word-break: break-word;
 
   }
 
   &__content {
-  margin-left: 40px;
+    margin-left: 40px;
     display: flex;
     flex-direction: column;
     margin-bottom: 0px;
     margin-top: 0px;
     width: 100%;
-
   }
 
   &__text {
     margin-bottom: 10px;
     margin-right: 10px;
-
   }
 
   &__image {
     width: 30px;
     max-width: 30px;
     position: absolute;
-<<<<<<< HEAD
     margin-top: 50px;
   }
  .img__card {
     float: right;
-  }
-<<<<<<< HEAD
-=======
-
-
-=======
     margin-top: 0px;
-
-    }
+  }
 
     &__image__big {
        float: right;
@@ -68,6 +56,5 @@
        margin-bottom: 6rem;
        align-items: flex-start;
   }
->>>>>>> 3048ae875543f8e58e417f47834b2167459237d7
->>>>>>> 8ee5fcaef1d3243d7296a23dded70409c2c9c2a8
+
 }
