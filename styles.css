@@ -493,10 +493,10 @@ li {
   font-family: 'open sans';
   font-size: 1rem;
   height: 40px;
-  position: absolute;
   display: inline-block;
   max-width: 1200px;
-  margin: auto; }
+  margin: auto;
+  position: fixed; }
   .nav .nav__title {
     color: #ffffff;
     display: inline;
