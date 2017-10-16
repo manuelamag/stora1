@@ -5,8 +5,9 @@ form {
   font-size: 1.2em;
   width: 100%;
   line-height: 1em;
-justify-content: space-around;
+  justify-content: space-around;
 font-family: 'open sans';
+margin-left: 160px;
 
 
   .flex-outer {
@@ -22,11 +23,16 @@ font-family: 'open sans';
 
 .flex-inner{
   list-style-type: none;
+  display: flex;
 }
+.flex-inner-1{
+  list-style-type: none;
+}
+
 
 .left,
 .right {
-font-size: 1em;
+font-size: 1.2rem;
 list-style-type: none;
 }
 
@@ -38,14 +44,17 @@ font-size:1.5rem;
 
 label{
   display: block;
+  padding-top: 20px;
+
 }
 input{
-
 line-height: 1.5em;
+
 
 }
 input #kyn{
 padding-right: 20px;
+line-height: 1em;
 
 }
 p{
