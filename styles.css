@@ -32,8 +32,7 @@
     position: absolute;
     margin-top: 50px; }
   .card .img__card {
-    float: right;
-    margin-top: 0px; }
+    float: right; }
   .card__image__big {
     float: right;
     margin-top: 6rem;
