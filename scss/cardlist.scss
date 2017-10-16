@@ -7,9 +7,16 @@
   flex-wrap: nowrap;
   justify-content: space-around;
 
+<<<<<<< HEAD
   @media (max-width: 400px) {
     flex-direction: column;
     flex-wrap: nowrap;
+=======
+
+  @media(max-width: 400px){
+flex-direction: column;
+flex-wrap: nowrap;
+>>>>>>> d38f5c701a293660517adb3faa68a0ca4680899f
   }
 
   &__col {
