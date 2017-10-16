@@ -4,7 +4,7 @@
   margin: 0;
   padding: 10px 5px;
   border: 1px solid #666;
-  border-radius: 2px;
+  border-radius: 2.5px;
   width: 100%;
   max-width: 256px;
 
@@ -43,9 +43,10 @@
   align-items: center;
   display: block;
   margin: auto;
-  padding: 5px 5px;
-  max-width: 133px;
-  margin-bottom: 40px;
+  padding: 8px 8px;
+  max-width: 160px;
+  margin-bottom: 60px;
+  font-size: 1.5em;
 }
 
 .hero_text_button {
@@ -59,6 +60,7 @@
   text-decoration: none;
   font-size: 2em;
   animation: fadein 10s;
+  font-family: 'open sans';
   cursor: pointer;
   &hover {
     color: #eee;

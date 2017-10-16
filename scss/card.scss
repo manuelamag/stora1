@@ -17,41 +17,34 @@
 
   &__heading {
     margin-bottom: 5px;
-
     width: 100%;
     font-family: 'roboto slab';
     font-size: 1.5em;
     font-weight: bolder;
-
     word-break: break-word;
 
   }
 
   &__content {
-  margin-left: 40px;
+    margin-left: 40px;
     display: flex;
     flex-direction: column;
     margin-bottom: 0px;
     margin-top: 0px;
     width: 100%;
-
   }
 
   &__text {
     margin-bottom: 10px;
     margin-right: 10px;
-
   }
 
   &__image {
     width: 30px;
     max-width: 30px;
     position: absolute;
-    margin-top: 50px;
   }
- .img__card {
-    float: right;
-    }
+
 
     &__image__big {
        float: right;
