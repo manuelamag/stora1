@@ -4,18 +4,20 @@ form {
   overflow: hidden;
   font-size: 1.2em;
   width: 100%;
-  line-height: 2em;
+  line-height: 1em;
 justify-content: space-around;
+font-family: 'open sans';
+
 
   .flex-outer {
     display: flex;
     flex-wrap: wrap;
-
     margin: auto;
     padding: 50px;
-    @media (min-width: 600px) {
-      align-items: flex-start;
-    }
+  }
+
+  @media (max-width: 600px) {
+    align-items: flex-start;
   }
 
 .flex-inner{
@@ -29,14 +31,27 @@ list-style-type: none;
 }
 
 legend{
+line-height: 3em;
+font-size:1.5rem;
 
-  font-size:1.5rem;
 }
 
 label{
   display: block;
 }
+input{
 
+line-height: 1.5em;
+
+}
+input #kyn{
+padding-right: 20px;
+
+}
+p{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 
 
 }
