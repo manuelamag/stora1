@@ -29,6 +29,10 @@
     font-size: 3em;
     color: #fff;
   }
+
+  @media (max-width: 400px) {
+    font-size: 1em;
+  }
 }
 
 .hero_text {
