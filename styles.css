@@ -90,7 +90,8 @@ header {
     @media (max-width: 400px) {
       header.hero {
         min-width: 100%;
-        background-size: cover; } }
+        background-position: left;
+        min-height: 300px; } }
   @media (max-width: 400px) {
     header {
       min-width: 400px;
