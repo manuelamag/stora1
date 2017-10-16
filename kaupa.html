@@ -22,82 +22,72 @@
       </span>
   </nav>
 
-  <div class="grid">
-  <div class="column">
-    <div class="left">
+
+<form>
+  <ul class="flex-outer">
+    <div class="col col-6 col-sm-12">
+      <div class="left">
       <legend>Persónuupplýsingar</legend>
-          <div class="col col-12">
+          <li>
             <label for="name">Nafn:</label>
-          </div>
-          <div class="col col-12">
             <input type="text" name="name" id="name" required>
-          </div>
-          <div class="col col-12">
-            <label for="Kennitala">Kennitala:</label>
-          </div>
-          <div class="col col-12">
-            <input type="text" name="Kennitala" id="Kennitala" value="123456-7890" /* autocomplete="off" tabindex="1"*/ required>
-          </div>
-          <label for="name">Kyn:</label>
-          <label>
-            <div>
-              <input name="Kyn" type="radio" value="kona"> Kona
-            </div>
-          </label>
-          <label>
-            <div>
-              <input name="Kyn" type="radio" value="karl"> Karl
-            </div>
-          </label>
-          <label>
-            <div>
-              <input name="Kyn" type="radio" value="annað"> Annað
-            </div>
-          </label>
-          <div>
-              <label for="Sími">Sími:</label>
-            </div>
-          <div class "col col-12">
-              <input type="text" name="Sími" id="Sími" value="+354 812 3456"required>
-            </div>
-          <div>
-              <label for="Heimilisfang">Heimilisfang:</label>
-            </div>
-          <div class "col col-12">
-              <input type="text" name="Heimilisfang" id="Heimilisfang" required>
-            </div>
-          <div>
-              <label>
-                <input type="checkbox" name="Skrá mig á póstlista" checked> Skrá mig á póstlista
-              </label>
-            </div>
+          </li>
+          <li>
+          <label for="Kennitala">Kennitala:</label>
+            <input type="text" name="Kennitala" id="Kennitala" placeholder="123456-7890" required>
+          </li>
+          <li>
+            <p>Kyn:</p>
+            <ul class="flex-inner">
+              <li>
+                <input name="Kyn" type="radio" value="kona">
+                <label for="kona">Kona</label>
+              </li>
+              <li>
+                <input name="Kyn" type="radio" value="karl">
+                <label for="karl">Karl</label>
+              </li>
+              <li>
+                <input name="Kyn" type="radio" value="annað">
+                <label for="annað">Annað</label>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <label for="Sími">Sími:</label>
+            <input type="text" name="Sími" id="Sími" placeholder="+354 812 3456"required>
+          </li>
+          <li>
+            <label for="Heimilisfang">Heimilisfang:</label>
+            <input type="text" name="Heimilisfang" id="Heimilisfang" required>
+          </li>
+          <li>
+                <input type="checkbox" name="Skrá mig á póstlista" checked>
+                <label>Skrá mig á póstlista</label>
+            </li>
     </div>
-    <div class="right">
-    <legend>Greiðsluupplýsingar</legend>
-     <div class="col col-12 col-sm-12">
+    </div>
+    <div class="col col-6 col-sm-12">
+      <div class="right">
+      <legend>Greiðsluupplýsingar</legend>
+     <li>
        <label for="service">Greiða með:</label>
-     </div>
-      <div class="col col-12 col-sm-12">
+     </li>
         <select name="service" id="service">
           <option>Kredidkorti</option>
           <option>Millifærslu</option>
           <option>Reiðufé</option>
         </select>
-      </div>
+        <li>
         <label for="Nafn á korti">Nafn á korti:</label>
-      <div class="col col-12 col-sm-12">
         <input type="text" name="Nafn á korti" id="Nafn á korti" required>
-      </div>
-      <div class="col col-12 col-sm-12">
+      </li>
+      <li>
         <label for="Kortanúmer">Kortanúmer:</label>
-      </div>
-      <div class="col col-12">
-        <input type="text" name="kortanúmer" id="kortnúmer" value="5999-9999-9999-9999" required>
-      </div>
-      <div class="col col-12 col-sm-12">
+        <input type="text" name="kortanúmer" id="kortnúmer" placeholder="5999-9999-9999-9999" required>
+      </li>
+      <li>
         <label for="service">Gildistími:</label>
-      </div>
-      <div>
         <select name="service" id="service"> Mán
       <option>01</option>
       <option>02</option>
@@ -118,16 +108,18 @@
       <option>2019</option>
       <option>2020</option>
     </select>
+        </li>
       </div>
     </div>
-  </div>
+  </ul>
+  </form>
 
 
   <div class="column-12">
       <a href="kaupa.html" class="button button__2">panta</a>
     </div>
-</div>
-</div>
+</li>
+</li>
 
 
 <footer class = "1-footer-wrapper">

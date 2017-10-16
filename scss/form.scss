@@ -1,5 +1,27 @@
-.form {
+form {
 
-//skoða label og verkefni 2 form.htm
+  width:1200px;
+  overflow: hidden;
+  font-size: 1.2em;
+  width: 100%;
+  line-height: 1.5em;
+justify-content: space-around;
 
+  .flex-outer {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: auto;
+    padding: 50px;
+  }
+
+.flex-inner{
+  list-style-type: none;
+}
+
+.left,
+.right {
+font-size: 1em;
+list-style-type: none;
+}
 }
