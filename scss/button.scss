@@ -22,6 +22,10 @@
 
   border-radius: 2.5px;
   transition: color 500ms ease, background-color 500ms ease;
+  cursor: pointer;
+
+  margin-left: auto;
+  margin-right: auto;
 
   &:hover {
     color: #eee;
@@ -31,6 +35,7 @@
 
 .column-12 {
   width: 100%;
+  color: red;
 }
 
 .column-12 > .button__2 {
@@ -46,6 +51,13 @@
 }
 
 .hero_text_button {
+<<<<<<< HEAD
+=======
+
+
+  margin-top: 2em;
+
+>>>>>>> 206d35f3a2bf7f25b50c88dc40cf70e346ff6ff4
   display: inline-block;
   padding: 10px 25px;
   margin-top: 2em;
@@ -65,9 +77,9 @@
 
   }
   @media (max-width: 400px) {
-    max-width: 40%;
-    font-size: 1em;
-
+    max-width: 60px;
+    font-size: 1rem;
+    padding: 5px;
   }
 }
 @keyframes fadein {
