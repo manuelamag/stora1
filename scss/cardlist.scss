@@ -1,101 +1,100 @@
 .cardlist {
-  display: flex;
+
+  font-family: 'open sans';
   width: 100%;
-  margin: auto;
-  font-family: "open sans";
   flex-direction: row;
   flex-wrap: nowrap;
+  display: flex;
+  margin: auto;
   justify-content: space-around;
 
-<<<<<<< HEAD
-  @media (max-width: 400px) {
-    flex-direction: column;
-    flex-wrap: nowrap;
-=======
 
   @media(max-width: 400px){
 flex-direction: column;
 flex-wrap: nowrap;
->>>>>>> d38f5c701a293660517adb3faa68a0ca4680899f
   }
 
-  &__col {
-    flex-flow: wrap;
-    display: block;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-  }
+  &__col{
+  flex-flow: wrap;
+  flex-direction: column;
+  display: block;
+  flex-wrap: nowrap;
+  justify-content: space-around;
 
-  .circular--square {
+}
+
+  & .circular--square{
+    border-radius:200px;
     height: 300px;
-    margin-right: 30px;
     margin-left: 30px;
-    border-radius: 200px;
+    margin-right: 30px;
+
   }
 
-  .text__cardlist {
-    padding: 5px;
-    overflow: visible;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    align-items: flex-end;
+& .text__cardlist{
+  text-align:center;
+  font-weight: bold;
+  font-size: 16px;
+  overflow: visible;
+  padding: 5px;
+  align-items:flex-end;
+}
+
+& .text__cardlist__1{
+  text-align: center;
+  font-weight: normal;
+  font-size: 14px;
+  overflow: visible;
+  padding: 0px;
+  margin: auto;
+  align-items: flex-end;
+
+}
+
+& .text__p{
+  text-align: center;
+  font-size: 14px;
   }
 
-  .text__cardlist__1 {
-    padding: 0;
-    margin: auto;
-    overflow: visible;
-    font-size: 14px;
-    font-weight: normal;
-    text-align: center;
-    align-items: flex-end;
-  }
+& h4{
+  font-family: 'open sans';
+  align-items:flex-end;
+  font-size: 20px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  font-style: italic;
+  width: 100%;
+}
 
-  .text__p {
-    font-size: 14px;
-    text-align: center;
-  }
+&.row{
+  padding: 15px;
+  flex-direction: row;
+  flex-flow: wrap;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
 
-  h4 {
-    display: block;
-    width: 100%;
-    padding: 5px;
-    margin: auto;
-    font-family: 'open sans';
-    align-items: flex-end;
-    font-size: 20px;
-    font-style: italic;
-    text-align: center;
-  }
-
-  &.row {
-    display: block;
-    width: 100%;
-    padding: 15px;
-    margin: auto;
-    flex-direction: row;
-    flex-flow: wrap;
-  }
-
-  &__row {
-    display: block;
+  &__row{
+    width:100%;
     display: flex;
-    width: 100%;
-    margin: auto;
     flex-direction: column;
     flex-flow: wrap;
+    width: 100%;
+    display: block;
+    margin: auto;
   }
 
   &__col {
-    display: inline-block;
-    display: block;
     width: 100%;
-    padding: 10px;
-    margin: auto;
     flex-direction: column;
+    display: inline-block;
+    padding: 10px;
     align-items: flex-end;
+    display: block;
+    margin: auto;
   }
 
 }
