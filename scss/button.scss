@@ -23,7 +23,7 @@
 
   transition: color 500ms ease, background-color 500ms ease;
   cursor: pointer;
-  
+
   margin-left: auto;
   margin-right: auto;
 
@@ -36,6 +36,7 @@
 
 .column-12 {
   width: 100%;
+  color: red;
 }
 
 .column-12 > .button__2 {
