@@ -2,34 +2,47 @@ form {
   width: 100%;
   max-width: 1200px;
   overflow: hidden;
-  margin-left: 160px;
-  font-family: 'open sans';
+  font-family: "Open Sans", sans-serif;
   font-size: 1.2em;
   line-height: 1em;
   justify-content: space-around;
-
-  .flex-outer {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 50px;
-    margin: auto;
-    @media (min-width: 600px) {
-      align-items: flex-start;
-    }
-  }
 
   @media (max-width: 600px) {
     align-items: flex-start;
   }
 
+  .flex-outer {
+    display: flex;
+    flex-wrap: wrap;
+  //  padding: 50px;
+
+    @media (max-width: 400px) {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      max-width: 100%;
+    }
+  }
+
+
+  .col {
+    width: 50%;
+  }
 
   .flex-inner {
     display: flex;
     list-style-type: none;
+    flex-direction: row;
+
+    select {
+      min-width: 15%;
+      font-size: 1rem;
+    }
   }
 
   .flex-inner-1 {
     list-style-type: none;
+
   }
 
   .left,
@@ -39,7 +52,7 @@ form {
   }
 
   legend {
-    font-size:1.5rem;
+    font-size: 1.5rem;
     line-height: 3em;
   }
 
@@ -48,22 +61,12 @@ form {
     padding-top: 20px;
   }
 
-
-
   input {
     line-height: 1.5em;
   }
 
-  input #kyn {
-    padding-right: 20px;
-    line-height: 1em;
-  }
-
-
   p {
     padding-top: 10px;
     padding-bottom: 10px;
-
   }
-
 }

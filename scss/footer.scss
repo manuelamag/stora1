@@ -1,4 +1,4 @@
-.footer {
+footer {
   max-width: 100%;
   padding-top: 10px;
   font-size: 0.8em;
@@ -8,7 +8,7 @@
   background-color: rgba(0, 0, 0, 0.65);
 }
 
-.li {
+li {
   margin-top: 5px;
 }
 
@@ -23,7 +23,6 @@
   list-style: none;
   list-style-type: none;
   flex-direction: column;
-
 }
 
 .panel {
@@ -33,7 +32,7 @@
   border-top: groove #fff;
 }
 
-.panel .p {
+.panel p {
   display: block;
   width: 50%;
   padding: 10px;
