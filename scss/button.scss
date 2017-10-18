@@ -1,28 +1,27 @@
 .button {
   display: inline-block;
+  width: 100%;
+  max-width: 256px;
   padding: 10px 5px;
   margin: 0;
-  border: 1px solid #666;
-  width: 100%;
-  border-radius: 2.5px;
-
-  max-width: 256px;
+  margin-right: auto;
+  margin-left: auto;
   overflow: hidden;
-  text-overflow: ellipsis;
-  color: #eee;
-  white-space: nowrap;
+
   font-family: "open sans";
   font-size: 2rem;
-  background-color: #666;
-  text-decoration: none;
+
+  color: #eee;
   text-align: center;
-<<<<<<< HEAD
-
-  transition: color 500ms ease, background-color 500ms ease;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   cursor: pointer;
+  background-color: #666;
+  border: 1px solid #666;
 
-  margin-left: auto;
-  margin-right: auto;
+  border-radius: 2.5px;
+  transition: color 500ms ease, background-color 500ms ease;
 
   &:hover {
     color: #eee;
@@ -32,36 +31,37 @@
 
 .column-12 {
   width: 100%;
-  color: red;
 }
 
 .column-12 > .button__2 {
   display: block;
-  text-align: center;
-  align-items: center;
   max-width: 160px;
   padding: 8px;
   margin: auto;
   margin-bottom: 60px;
   font-size: 1.5em;
+  text-align: center;
+  align-items: center;
+
+  @media (max-width: 400px) {
+    max-width: 50px;
+    font-size: 0.5rem;
+  }
 }
 
 .hero_text_button {
-
-
-  margin-top: 2em;
-
   display: inline-block;
-  border: 1px solid #666;
   padding: 10px 25px;
+  margin-top: 2em;
+  font-family: "open sans";
+  font-size: 2em;
   color: #eee;
   text-align: center;
-  background-color: #666;
-  font-size: 2em;
   text-decoration: none;
-  font-family: "open sans";
-  animation: fadein 10s;
   cursor: pointer;
+  background-color: #666;
+  border: 1px solid #666;
+  animation: fadein 10s;
 
   &hover {
     color: #eee;
@@ -70,8 +70,8 @@
   }
   @media (max-width: 400px) {
     max-width: 60px;
-    font-size: 1rem;
     padding: 5px;
+    font-size: 1rem;
   }
 }
 @keyframes fadein {
