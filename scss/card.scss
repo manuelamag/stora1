@@ -43,6 +43,7 @@
       width: 100%;
       font-size: 1em;
     }
+
   }
 
   &__image {
@@ -56,5 +57,10 @@
     margin-top: 6rem;
     margin-bottom: 6rem;
     align-items: flex-start;
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+
   }
+
 }

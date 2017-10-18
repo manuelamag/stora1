@@ -11,6 +11,7 @@
     min-width: 100%;
     flex-direction: column;
     flex-wrap: nowrap;
+    display: flex;
   }
 
   @media (max-width: 600px) {
@@ -83,6 +84,12 @@
 
     @media (max-width: 600px) {
       max-width: 100%;
+      display: flex;
+    }
+
+    @media (max-width: 400px) {
+      width: 70%;
+      margin: auto;
     }
   }
 
