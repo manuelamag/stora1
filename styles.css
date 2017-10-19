@@ -98,6 +98,7 @@ header {
       font-size: 2em;
       background-position: left; } }
   header.hero {
+    /*stylelint-disable-line*/
     position: relative;
     display: flex;
     width: 100%;
@@ -494,6 +495,7 @@ form {
       form .flex-outer {
         margin-right: 20px; } }
   form .col {
+    /*stylelint-disable-line*/
     width: 50%;
     list-style-type: none; }
   form .flex-inner {
@@ -510,15 +512,19 @@ form {
       form .flex-inner {
         flex-direction: column; } }
   form .flex-inner-1 {
+    /*stylelint-disable-line*/
     list-style-type: none; }
   form select {
+    /*stylelint-disable-line*/
     margin: 17px 15px;
     font-size: 1rem;
     align-content: center; }
   form legend {
+    /*stylelint-disable-line*/
     font-size: 1.5rem;
     line-height: 3em; }
   form label {
+    /*stylelint-disable-line*/
     display: block;
     padding-top: 20px; }
   form li > input {
@@ -528,12 +534,15 @@ form {
       form li > input {
         min-width: 100%; } }
   form input {
+    /*stylelint-disable-line*/
     margin-bottom: 10px; }
   form p {
+    /*stylelint-disable-line*/
     padding-top: 10px;
     padding-bottom: 10px; }
 
 footer {
+  /*stylelint-disable-line*/
   max-width: 100%;
   padding-top: 10px;
   font-size: 0.8em;
@@ -543,6 +552,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.65); }
 
 li {
+  /*stylelint-disable-line*/
   margin-top: 5px; }
 
 .block__content {
@@ -564,6 +574,7 @@ li {
   border-top: groove #fff; }
 
 .panel p {
+  /*stylelint-disable-line*/
   display: block;
   width: 50%;
   padding: 10px;
@@ -604,6 +615,7 @@ li {
     .nav {
       font-size: 0.5em; } }
   .nav a {
+    /*stylelint-disable-line*/
     display: inline;
     padding: 8px;
     font-size: 1rem;
