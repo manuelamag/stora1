@@ -12,6 +12,7 @@
   cursor: pointer;
   background-color: #666;
   border: 1px solid #666;
+  border-radius: 3px;
 
   border-radius: 2.5px;
   transition: color 500ms ease, background-color 500ms ease;
@@ -24,6 +25,8 @@
 
 .column-12 {
   width: 100%;
+  font-size: 1rem;
+  margin-top: 100px;
   @media (max-width: 400px) {
     margin-top: 50px;
   }
@@ -63,7 +66,12 @@
   text-decoration: none;
   background-color: #666;
   border: 1px solid #666;
+<<<<<<< HEAD
   animation: fadein 8s;
+=======
+  animation: fadein 5s;
+  border-radius: 3px;
+>>>>>>> b939ea584f344a87f9233a712da997e7074ec232
 
   &hover {
     color: #eee;
