@@ -19,6 +19,7 @@
   cursor: pointer;
   background-color: #666;
   border: 1px solid #666;
+  border-radius: 3px;
 
   border-radius: 2.5px;
   transition: color 500ms ease, background-color 500ms ease;
@@ -31,6 +32,8 @@
 
 .column-12 {
   width: 100%;
+  font-size: 1rem;
+  margin-top: 100px;
   @media (max-width: 400px) {
     margin-top: 50px;
   }
@@ -71,7 +74,8 @@
   //cursor: pointer;
   background-color: #666;
   border: 1px solid #666;
-  animation: fadein 10s;
+  animation: fadein 5s;
+  border-radius: 3px;
 
   &hover {
     color: #eee;

@@ -11,10 +11,10 @@
 
   &___two {
     width: 100%;
-    margin: 1em 0em;
+    margin: 1em 1em;
     font-family: "Roboto Slab", serif;
     font-size: 1em;
-    line-height: 1.5;
+    //line-height: 1.5;
   }
 
   &__one {
@@ -52,8 +52,9 @@
 .hero__heading__1 {
   font-family: "Roboto Slab", serif;
   font-size: 3em;
+  font-weight: lighter
   color: #000;
-  animation: fadein 4s;
+  animation: fadein 1s;
   @media (max-width: 400px) {
     font-size: 1rem;
   }
@@ -63,7 +64,7 @@
   font-family: "Roboto Slab", serif;
   font-size: 5em;
   font-weight: bold;
-  animation: fadein 8s;
+  animation: fadein 4s;
   @media (max-width: 400px) {
     font-size: 1.5rem;
   }
