@@ -1,4 +1,4 @@
-footer {
+footer {/*stylelint-disable-line*/
   max-width: 100%;
   padding-top: 10px;
   font-size: 0.8em;
@@ -8,7 +8,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.65);
 }
 
-li {
+li {/*stylelint-disable-line*/
   margin-top: 5px;
 }
 
@@ -32,7 +32,7 @@ li {
   border-top: groove #fff;
 }
 
-.panel p {
+.panel p {/*stylelint-disable-line*/
   display: block;
   width: 50%;
   padding: 10px;

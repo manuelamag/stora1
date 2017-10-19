@@ -19,7 +19,7 @@ header {
     background-position: left;
   }
 
-  &.hero {
+  &.hero { /*stylelint-disable-line*/
     position: relative;
     display: flex;
     width: 100%;

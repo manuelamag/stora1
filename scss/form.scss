@@ -22,7 +22,7 @@ form {
     }
   }
 
-  .col {
+  .col {/*stylelint-disable-line*/
     width: 50%;
     list-style-type: none;
   }
@@ -45,22 +45,22 @@ form {
     }
   }
 
-  .flex-inner-1 {
+  .flex-inner-1 {/*stylelint-disable-line*/
     list-style-type: none;
   }
 
-  select {
+  select {/*stylelint-disable-line*/
     margin: 17px 15px;
     font-size: 1rem;
     align-content: center;
   }
 
-  legend {
+  legend {/*stylelint-disable-line*/
     font-size: 1.5rem;
     line-height: 3em;
   }
 
-  label {
+  label {/*stylelint-disable-line*/
     display: block;
     padding-top: 20px;
   }
@@ -73,11 +73,11 @@ form {
     }
   }
 
-  input {
+  input {/*stylelint-disable-line*/
     margin-bottom: 10px;
   }
 
-  p {
+  p {/*stylelint-disable-line*/
     padding-top: 10px;
     padding-bottom: 10px;
   }
