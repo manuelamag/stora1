@@ -16,8 +16,8 @@
   margin: 5em;
   word-break: keep-all;
   @media (max-width: 600px) {
-    width: 200px;
     float: right;
+    width: 200px;
   }
 
   &__p {

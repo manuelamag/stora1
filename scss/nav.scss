@@ -1,9 +1,10 @@
 .nav {
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
 
-  position: fixed;
+  z-index: 1;
   display: inline-block;
   width: 100%;
   max-width: 1200px;
@@ -14,7 +15,6 @@
   font-family: "open sans";
   font-size: 1rem;
   background-color: rgba(0, 0, 0, 0.65);
-  z-index: 1;
 
   .nav__title {
     display: inline;

@@ -28,8 +28,8 @@
     color: #fff;
 
     @media (max-width: 400px) {
-      font-size: 1em;
       width: 100%;
+      font-size: 1em;
     }
   }
 
@@ -43,8 +43,8 @@
   text-align: center;
   transform: translate(-50%, -50%);
   @media (max-width: 400px) {
-    font-size: 1em;
     width: 100%;
+    font-size: 1em;
 
   }
 }
@@ -53,7 +53,7 @@
   font-family: "Roboto Slab", serif;
   font-size: 3em;
   color: #000;
-  animation: fadein 4s;
+  animation: fadein 2s;
   @media (max-width: 400px) {
     font-size: 1rem;
   }
@@ -63,7 +63,7 @@
   font-family: "Roboto Slab", serif;
   font-size: 5em;
   font-weight: bold;
-  animation: fadein 8s;
+  animation: fadein 4s;
   @media (max-width: 400px) {
     font-size: 1.5rem;
   }

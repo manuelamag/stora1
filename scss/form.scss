@@ -1,14 +1,6 @@
 form {
-//  min-width: 100%;
-  //max-width: 1200px;
-//  overflow: hidden;
-  font-family: "Open Sans", sans-serif;
-  //font-size:1em;
-  //line-height: 1em;
-  //justify-content: space-around;
-  //padding-left: 90px;
   margin-left: 85px;
-
+  font-family: "Open Sans", sans-serif;
 
   @media (max-width: 600px) {
     align-items: flex-start;
@@ -18,12 +10,11 @@ form {
     display: flex;
     flex-wrap: wrap;
 
-
     @media (max-width: 400px) {
       display: flex;
+      max-width: 100%;
       flex-direction: column;
       flex-wrap: nowrap;
-      max-width: 100%;
     }
 
     @media (max-width: 600px) {
@@ -31,27 +22,25 @@ form {
     }
   }
 
-
   .col {
     width: 50%;
     list-style-type: none;
   }
 
-
   .flex-inner {
     display: flex;
-    flex-direction: row;
     list-style-type: none;
+    flex-direction: row;
 
     select {
       min-width: 15%;
       font-size: 1rem;
-      @media(max-width: 600px){
+      @media (max-width: 600px) {
         font-size: 0.75rem;
       }
     }
 
-    @media (max-width: 400px){
+    @media (max-width: 400px) {
       flex-direction: column;
     }
   }
@@ -77,9 +66,9 @@ form {
   }
 
   li > input {
-    font-size: 1rem;
     min-width: 60%;
-    @media(max-width: 400px){
+    font-size: 1rem;
+    @media (max-width: 400px) {
       min-width: 100%;
     }
   }
@@ -87,7 +76,6 @@ form {
   input {
     margin-bottom: 10px;
   }
-
 
   p {
     padding-top: 10px;

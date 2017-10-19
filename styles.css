@@ -140,8 +140,8 @@ header {
     color: #fff; }
     @media (max-width: 400px) {
       .heading__one {
-        font-size: 1em;
-        width: 100%; } }
+        width: 100%;
+        font-size: 1em; } }
 
 .hero_text {
   position: absolute;
@@ -152,14 +152,14 @@ header {
   transform: translate(-50%, -50%); }
   @media (max-width: 400px) {
     .hero_text {
-      font-size: 1em;
-      width: 100%; } }
+      width: 100%;
+      font-size: 1em; } }
 
 .hero__heading__1 {
   font-family: "Roboto Slab", serif;
   font-size: 3em;
   color: #000;
-  animation: fadein 4s; }
+  animation: fadein 2s; }
   @media (max-width: 400px) {
     .hero__heading__1 {
       font-size: 1rem; } }
@@ -168,7 +168,7 @@ header {
   font-family: "Roboto Slab", serif;
   font-size: 5em;
   font-weight: bold;
-  animation: fadein 8s; }
+  animation: fadein 4s; }
   @media (max-width: 400px) {
     .hero__heading__2 {
       font-size: 1.5rem; } }
@@ -226,8 +226,8 @@ header {
   word-break: keep-all; }
   @media (max-width: 600px) {
     .instructions {
-      width: 200px;
-      float: right; } }
+      float: right;
+      width: 200px; } }
   .instructions__p {
     margin: 2em;
     font-size: 0.5em;
@@ -296,7 +296,7 @@ header {
   text-decoration: none;
   background-color: #666;
   border: 1px solid #666;
-  animation: fadein 10s; }
+  animation: fadein 8s; }
   .hero_text_buttonhover {
     color: #eee;
     background-color: #333; }
@@ -402,10 +402,10 @@ header {
   justify-content: space-around; }
   @media (max-width: 400px) {
     .cardlist {
+      display: flex;
       min-width: 100%;
       flex-direction: column;
-      flex-wrap: nowrap;
-      display: flex; } }
+      flex-wrap: nowrap; } }
   @media (max-width: 600px) {
     .cardlist {
       display: flex;
@@ -422,6 +422,10 @@ header {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: flex-end; }
+    @media (max-width: 600px) {
+      .cardlist__col {
+        display: flex;
+        max-width: 100%; } }
   .cardlist .circular--square {
     height: 300px;
     margin-right: 30px;
@@ -462,8 +466,8 @@ header {
     text-align: center; }
     @media (max-width: 600px) {
       .cardlist h4 {
-        max-width: 100%;
-        display: flex; } }
+        display: flex;
+        max-width: 100%; } }
     @media (max-width: 400px) {
       .cardlist h4 {
         width: 70%;
@@ -483,8 +487,8 @@ header {
     flex-direction: column; }
 
 form {
-  font-family: "Open Sans", sans-serif;
-  margin-left: 85px; }
+  margin-left: 85px;
+  font-family: "Open Sans", sans-serif; }
   @media (max-width: 600px) {
     form {
       align-items: flex-start; } }
@@ -494,9 +498,9 @@ form {
     @media (max-width: 400px) {
       form .flex-outer {
         display: flex;
+        max-width: 100%;
         flex-direction: column;
-        flex-wrap: nowrap;
-        max-width: 100%; } }
+        flex-wrap: nowrap; } }
     @media (max-width: 600px) {
       form .flex-outer {
         margin-right: 20px; } }
@@ -505,8 +509,8 @@ form {
     list-style-type: none; }
   form .flex-inner {
     display: flex;
-    flex-direction: row;
-    list-style-type: none; }
+    list-style-type: none;
+    flex-direction: row; }
     form .flex-inner select {
       min-width: 15%;
       font-size: 1rem; }
@@ -529,8 +533,8 @@ form {
     display: block;
     padding-top: 20px; }
   form li > input {
-    font-size: 1rem;
-    min-width: 60%; }
+    min-width: 60%;
+    font-size: 1rem; }
     @media (max-width: 400px) {
       form li > input {
         min-width: 100%; } }
@@ -577,10 +581,11 @@ li {
   margin: auto; }
 
 .nav {
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
-  position: fixed;
+  z-index: 1;
   display: inline-block;
   width: 100%;
   max-width: 1200px;
@@ -589,8 +594,7 @@ li {
   margin: auto;
   font-family: "open sans";
   font-size: 1rem;
-  background-color: rgba(0, 0, 0, 0.65);
-  z-index: 1; }
+  background-color: rgba(0, 0, 0, 0.65); }
   .nav .nav__title {
     display: inline;
     padding: 8px;

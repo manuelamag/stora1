@@ -8,10 +8,10 @@
   justify-content: space-around;
 
   @media (max-width: 400px) {
+    display: flex;
     min-width: 100%;
     flex-direction: column;
     flex-wrap: nowrap;
-    display: flex;
   }
 
   @media (max-width: 600px) {
@@ -31,6 +31,10 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: flex-end;
+    @media (max-width: 600px) {
+      display: flex;
+      max-width: 100%;
+    }
   }
 
   .circular--square {
@@ -83,8 +87,8 @@
     text-align: center;
 
     @media (max-width: 600px) {
-      max-width: 100%;
       display: flex;
+      max-width: 100%;
     }
 
     @media (max-width: 400px) {
