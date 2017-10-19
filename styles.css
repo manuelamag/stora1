@@ -227,20 +227,13 @@ header {
 
 .button {
   display: inline-block;
-  width: 100%;
-  max-width: 256px;
   padding: 10px 5px;
-  margin: 0;
   margin-right: auto;
   margin-left: auto;
-  overflow: hidden;
   font-family: "open sans";
   font-size: 2rem;
   color: #eee;
-  text-align: center;
   text-decoration: none;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   cursor: pointer;
   background-color: #666;
   border: 1px solid #666;
@@ -252,6 +245,12 @@ header {
 
 .column-12 {
   width: 100%; }
+  @media (max-width: 400px) {
+    .column-12 {
+      margin-top: 50px; } }
+  @media (max-width: 600px) {
+    .column-12 {
+      margin-top: 50px; } }
 
 .column-12 > .button__2 {
   display: block;
@@ -264,19 +263,22 @@ header {
   align-items: center; }
   @media (max-width: 400px) {
     .column-12 > .button__2 {
-      max-width: 50px;
-      font-size: 0.5rem; } }
+      max-width: 80px;
+      font-size: 0.75rem; } }
+  @media (max-width: 600px) {
+    .column-12 > .button__2 {
+      max-width: 80px;
+      font-size: 0.75rem; } }
 
 .hero_text_button {
   display: inline-block;
   padding: 10px 25px;
   margin-top: 2em;
   font-family: "open sans";
-  font-size: 2em;
+  font-size: 1.5rem;
   color: #eee;
   text-align: center;
   text-decoration: none;
-  cursor: pointer;
   background-color: #666;
   border: 1px solid #666;
   animation: fadein 10s; }
@@ -457,13 +459,8 @@ header {
     flex-direction: column; }
 
 form {
-  width: 100%;
-  max-width: 1200px;
-  overflow: hidden;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.2em;
-  line-height: 1em;
-  justify-content: space-around; }
+  margin-left: 85px; }
   @media (max-width: 600px) {
     form {
       align-items: flex-start; } }
@@ -476,29 +473,45 @@ form {
         flex-direction: column;
         flex-wrap: nowrap;
         max-width: 100%; } }
+    @media (max-width: 600px) {
+      form .flex-outer {
+        margin-right: 20px; } }
   form .col {
-    width: 50%; }
+    width: 50%;
+    list-style-type: none; }
   form .flex-inner {
     display: flex;
-    list-style-type: none;
-    flex-direction: row; }
+    flex-direction: row;
+    list-style-type: none; }
     form .flex-inner select {
       min-width: 15%;
       font-size: 1rem; }
+      @media (max-width: 600px) {
+        form .flex-inner select {
+          font-size: 0.75rem; } }
+    @media (max-width: 400px) {
+      form .flex-inner {
+        flex-direction: column; } }
   form .flex-inner-1 {
     list-style-type: none; }
-  form .left,
-  form .right {
-    font-size: 1.2rem;
-    list-style-type: none; }
+  form select {
+    margin: 17px 15px;
+    font-size: 1rem;
+    align-content: center; }
   form legend {
     font-size: 1.5rem;
     line-height: 3em; }
   form label {
     display: block;
     padding-top: 20px; }
+  form li > input {
+    font-size: 1rem;
+    min-width: 60%; }
+    @media (max-width: 400px) {
+      form li > input {
+        min-width: 100%; } }
   form input {
-    line-height: 1.5em; }
+    margin-bottom: 10px; }
   form p {
     padding-top: 10px;
     padding-bottom: 10px; }

@@ -1,21 +1,21 @@
 .button {
   display: inline-block;
-  width: 100%;
-  max-width: 256px;
+  //width: 100%;
+  //max-width: 256px;
   padding: 10px 5px;
-  margin: 0;
+//  margin: 0;
   margin-right: auto;
   margin-left: auto;
-  overflow: hidden;
+  //overflow: hidden;
 
   font-family: "open sans";
   font-size: 2rem;
 
   color: #eee;
-  text-align: center;
+  //text-align: center;
   text-decoration: none;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  //text-overflow: ellipsis;
+  //white-space: nowrap;
   cursor: pointer;
   background-color: #666;
   border: 1px solid #666;
@@ -31,6 +31,12 @@
 
 .column-12 {
   width: 100%;
+  @media (max-width: 400px) {
+    margin-top: 50px;
+  }
+  @media (max-width: 600px) {
+    margin-top: 50px;
+  }
 }
 
 .column-12 > .button__2 {
@@ -44,8 +50,12 @@
   align-items: center;
 
   @media (max-width: 400px) {
-    max-width: 50px;
-    font-size: 0.5rem;
+    max-width: 80px;
+    font-size: 0.75rem;
+  }
+  @media (max-width: 600px) {
+    max-width: 80px;
+    font-size: 0.75rem;
   }
 }
 
@@ -54,11 +64,11 @@
   padding: 10px 25px;
   margin-top: 2em;
   font-family: "open sans";
-  font-size: 2em;
+  font-size: 1.5rem;
   color: #eee;
   text-align: center;
   text-decoration: none;
-  cursor: pointer;
+  //cursor: pointer;
   background-color: #666;
   border: 1px solid #666;
   animation: fadein 10s;
