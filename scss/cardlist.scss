@@ -31,7 +31,6 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: flex-end;
-  
   }
 
   .circular--square {
@@ -81,6 +80,7 @@
     align-items: flex-end;
     font-size: 1.31rem;
     font-style: italic;
+    font-weight: normal;
     text-align: center;
 
     @media (max-width: 600px) {

@@ -23,27 +23,13 @@
   }
 }
 
-.column-12 {
-  width: 100%;
-  font-size: 1rem;
-  margin-top: 100px;
-  @media (max-width: 400px) {
-    margin-top: 50px;
-  }
-  @media (max-width: 600px) {
-    margin-top: 50px;
-  }
-}
-
 .column-12 > .button__2 {
   display: block;
   max-width: 160px;
   padding: 8px;
-  margin: auto;
   margin-bottom: 60px;
   font-size: 1.5em;
   text-align: center;
-  align-items: center;
 
   @media (max-width: 400px) {
     max-width: 80px;
@@ -66,8 +52,8 @@
   text-decoration: none;
   background-color: #666;
   border: 1px solid #666;
-  animation: fadein 8s;
   border-radius: 3px;
+  animation: fadein 8s;
 
   &hover {
     color: #eee;
