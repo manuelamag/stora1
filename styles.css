@@ -52,7 +52,7 @@ main {
     width: 33.33333%; }
   .col-3 {
     width: 25%; }
-  @media (max-width: 599px) {
+  @media (max-width: 600px) {
     .col-sm-12 {
       width: 100%; }
     .col-sm-10 {
@@ -64,6 +64,19 @@ main {
     .col-sm-4 {
       width: 33.33333%; }
     .col-sm-3 {
+      width: 25%; } }
+  @media (max-width: 400px) {
+    .col-smm-12 {
+      width: 100%; }
+    .col-smm-10 {
+      width: 83.33333%; }
+    .col-smm-8 {
+      width: 66.66667%; }
+    .col-smm-6 {
+      width: 50%; }
+    .col-smm-4 {
+      width: 33.33333%; }
+    .col-smm-3 {
       width: 25%; } }
 
 header {
@@ -127,7 +140,8 @@ header {
     color: #fff; }
     @media (max-width: 400px) {
       .heading__one {
-        font-size: 1em; } }
+        font-size: 1em;
+        width: 100%; } }
 
 .hero_text {
   position: absolute;
@@ -138,7 +152,8 @@ header {
   transform: translate(-50%, -50%); }
   @media (max-width: 400px) {
     .hero_text {
-      font-size: 1em; } }
+      font-size: 1em;
+      width: 100%; } }
 
 .hero__heading__1 {
   font-family: "Roboto Slab", serif;
@@ -209,10 +224,10 @@ header {
   width: 500px;
   margin: 5em;
   word-break: keep-all; }
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
     .instructions {
-      max-width: 100%;
-      overflow: hidden; } }
+      width: 200px;
+      float: right; } }
   .instructions__p {
     margin: 2em;
     font-size: 0.5em;
@@ -373,6 +388,9 @@ header {
     margin-top: 6rem;
     margin-bottom: 6rem;
     align-items: flex-start; }
+    @media (max-width: 600px) {
+      .card__image__big {
+        width: 100%; } }
 
 .cardlist {
   display: flex;
@@ -386,7 +404,8 @@ header {
     .cardlist {
       min-width: 100%;
       flex-direction: column;
-      flex-wrap: nowrap; } }
+      flex-wrap: nowrap;
+      display: flex; } }
   @media (max-width: 600px) {
     .cardlist {
       display: flex;
@@ -443,7 +462,12 @@ header {
     text-align: center; }
     @media (max-width: 600px) {
       .cardlist h4 {
-        max-width: 100%; } }
+        max-width: 100%;
+        display: flex; } }
+    @media (max-width: 400px) {
+      .cardlist h4 {
+        width: 70%;
+        margin: auto; } }
   .cardlist.row {
     display: block;
     width: 100%;
@@ -565,7 +589,8 @@ li {
   margin: auto;
   font-family: "open sans";
   font-size: 1rem;
-  background-color: rgba(0, 0, 0, 0.65); }
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 1; }
   .nav .nav__title {
     display: inline;
     padding: 8px;

@@ -15,9 +15,9 @@
   width: 500px;
   margin: 5em;
   word-break: keep-all;
-  @media (max-width: 400px) {
-    max-width: 100%;
-    overflow: hidden;
+  @media (max-width: 600px) {
+    width: 200px;
+    float: right;
   }
 
   &__p {
