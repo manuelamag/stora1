@@ -1,11 +1,5 @@
 
-/*
-   https://css-tricks.com/building-css-grid-overlay/
-   Skilgreining á grindinni okkar er fyrir neðan:
-   12 dálker
-   20px gutter
-   1200px hámarksbreidd
-*/
+
 :root {
   --offset: 0;
   --max_width: 1200px;
@@ -24,7 +18,6 @@
   );
 }
 
-/* Styling */
 html {
   position: relative;
 }
