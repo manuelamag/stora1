@@ -31,10 +31,7 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: flex-end;
-    @media (max-width: 600px) {
-      display: flex;
-      max-width: 100%;
-    }
+  
   }
 
   .circular--square {

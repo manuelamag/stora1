@@ -426,10 +426,6 @@ header {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: flex-end; }
-    @media (max-width: 600px) {
-      .cardlist__col {
-        display: flex;
-        max-width: 100%; } }
   .cardlist .circular--square {
     height: 300px;
     margin-right: 30px;
